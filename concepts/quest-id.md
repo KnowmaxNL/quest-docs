@@ -1,6 +1,6 @@
 ---
 title: Quest identificatie
-permalink: /concepts/quest-id/
+permalink: /concepts/quest-id
 ---
 
 # Quest identificatie
