@@ -32,7 +32,7 @@ playground:
     # Relative URL from site root starting with slash /
     # Absolute URL starting with 'http'
     stylesheets: 
-        - /demo-only/css/normalize.css
+        - /css/normalize.css
         # - /demo-only/css/photoswipe.css
     
     # PLAYGROUND HEAD JAVASCRIPTS
