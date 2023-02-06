@@ -280,7 +280,7 @@ prism:
         #- bro
         #- bsl
         #- c
-        #- csharp
+        - csharp
         #- cpp
         #- cfscript
         #- chaiscript
@@ -361,7 +361,7 @@ prism:
         #- jq
         #- jsdoc
         #- js-extras
-        #- json
+        - json
         #- json5
         #- jsonp
         #- jsstacktrace
@@ -481,7 +481,7 @@ prism:
         #- toml
         #- turtle
         #- twig
-        #- typescript
+        - typescript
         #- typoscript
         #- unrealscript
         #- uri
