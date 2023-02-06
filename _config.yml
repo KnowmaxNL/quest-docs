@@ -33,7 +33,6 @@ playground:
     # Relative URL from site root starting with slash /
     # Absolute URL starting with 'http'
     stylesheets: 
-    - /css/knowmax.css
     - /css/normalize.css
         
     
