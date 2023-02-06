@@ -528,19 +528,4 @@ prism:
 
 # LIBDOC BACKLINK
 # Link powered by LibDoc - Uncomment to remove
-# disable_powered_by_link: true
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-
+disable_powered_by_link: true
