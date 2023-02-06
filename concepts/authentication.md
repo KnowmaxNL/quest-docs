@@ -46,7 +46,7 @@ POST /api/authentication/licencesystem
 ***Request body ```application/json```***
 ```json
 {
-  "token": "token-from-knowmax-licence-system"
+  "token": "token-from-knowmax-license-system"
 }
 ```
 

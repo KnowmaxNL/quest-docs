@@ -30,3 +30,12 @@ Staat authenticatie namens andere gebruikers toe.
 
 ## AllowStatistics
 Staat het gebruik van Knowmax Quest Statistics toe.
+
+# Afscherming data
+De claim **AllowData** is nodig om data op te kunnen vragen. Mogelijk gelden er voor de Knowmax Magma API sleutel ook nog andere beperkingen die bepalen welke data op te vragen is. Het gaat dan om een berperking waardoor alleen de data van specifieke [Quest documenten](/concepts/quest-id) op te vragen is.
+
+## Afscherming op collectie
+Knowmax kan instellingen maken die zorgen dat de Knowmax Magma API sleutel alleen toegang heeft tot documenten opgenomen in een bepaalde collectie.
+
+## Afscherming volgens licentie
+Knowmax kan instellingen maken die zorgen dat de Knowmax Magma API sleutel alleen toegang heeft tot documenten waar toegang op gegeven wordt via een bepaalde licentie.
