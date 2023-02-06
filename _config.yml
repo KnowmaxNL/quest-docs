@@ -1,7 +1,7 @@
 remote_theme: olivier3lanc/Jekyll-LibDoc
 title: Knowmax Quest
 description: Knowmax Quest documentatie voor ontwikkelaars.
-url: http://quest.knowmax.dev
+url: https://quest.knowmax.dev
 # baseurl: /Jekyll-LibDoc/_site # the subpath of your site, e.g. /blog
 #permalink: /:path/:basename/:output_ext
 #destination: ../your/new/path # Build relative path destination. The destination directory e.g. /blog
