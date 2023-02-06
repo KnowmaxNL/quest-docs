@@ -7,7 +7,7 @@ permalink: /concepts/authentication
 Knowmax Quest kent een aantal verschillende manieren om gebruikers te authenticeren en te autoriseren. In dit document wordt uitgelegd hoe deze werken en hoe ze gebruikt kunnen worden.
 
 ## Bearer token
-Alle verzoeken naar de API van Knowmax Quest moeten een geldig bearer token in de header hebben voor authenticatie en autorisatie van de gebruiker. het bearer token beschrijft wie de gebruiker is en wat de gebruiker mag.
+Alle verzoeken naar de API van Knowmax Quest moeten een geldig bearer token in de header hebben voor authenticatie en autorisatie van de gebruiker. het bearer token beschrijft wie de gebruiker is en wat de gebruiker mag. Wat een gebruik mag, wordt uitgedrukt in [claims](/concepts/claims)
 
 ## Toepassingen
 Er zijn verschillende manieren om een bearer token voor toegang tot de API van Knowmax Quest te verkrijgen. De gekozen manier hangt af van de toepassing.
@@ -18,15 +18,15 @@ Bij server-to-server toepassingen gaat het altijd om twee vertrouwde toepassinge
 Voor server-to-server toepassingen, gebruikt Knowmax Quest het Knowmax Magma systeem. Met een Knowmax Magma API sleutel kunnen gebruikers een bearer token verkrijgen.
 
 ***Endpoint***
-```url
+```
 POST /api/authentication/magma
 ```
 
 ***Request body ```application/json```***
 ```json
 {
-  "magmaName": "waarde",
-  "secret": "waarde"
+  "magmaName": "name-from-knowmax-magma",
+  "secret": "secret-from-knowmax-magma"
 }
 ```
 
@@ -38,13 +38,34 @@ Voor client-to-server toepassingen zijn er twee manieren om een bearer token te 
 ### Knowmax Licentie token
 Knowmax Quest kan optioneel gekoppeld zijn aan een Knowmax Licentiesysteem. In dat geval kunnen gebruikers met een geldig token voor het Knowmax Licentiesysteem, dat token gebruiken om een bearer token voor Knowmax Quest te verkrijgen. Het token voor het Knowmax Licentiesysteem geeft toegang tot de persoonlijke licentie van een gebruiker en is door de gebruiker verkregen met de kennis van bijvoorbeeld een wachtwoord.
 
+***Endpoint***
 ```
 POST /api/authentication/licencesystem
+```
+
+***Request body ```application/json```***
+```json
+{
+  "token": "token-from-knowmax-licence-system"
+}
 ```
 
 ### Gedelegeerde authenticatie
 Bij deze opzet wordt server-to-server authenticatie gebruikt om een bearer token te verkrijgen voor een andere gebruiker. Een bearer token voor de client wordt in dit geval op de vertrouwde server aangevraagd namens de gebruiker. Deze bearer token kan vervolgens in de client gebruikt worden voor directe communicatie met de Knowmax Quest server.
 
+***Endpoint***
 ```
 POST /api/authentication/magma
 ```
+
+
+***Request body ```application/json```***
+```json
+{
+  "magmaName": "name-from-knowmax-magma",
+  "secret": "secret-from-knowmax-magma"
+  "user": {
+
+
+  }
+}
