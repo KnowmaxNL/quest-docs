@@ -7,7 +7,7 @@ Afhankelijk van de gebruikte [importer](/concepts/importers) kan Knowmax Quest b
 
 Als we de XML van het onderdeel waarin oorspronkelijk een artikel voorkwam, opvragen via de Knowmax Quest Web API via **Api/Document/Data/mydocument/hfd1/par1-2** zou de XML er na het opknippen als volgt uit kunnen zien:
 
-```
+```XML
 <paragraaf id="par1-2">        
   <paragraaf-kop>§ 1.2. Toepassing normen en certificatie- en inspectieschema’s</paragraaf-kop>
   <quest:DocumentNode-Placeholder id="175616" title="Artikel 1. Toepassing normen en certificatie- en 
@@ -19,7 +19,7 @@ Als we de XML van het onderdeel waarin oorspronkelijk een artikel voorkwam, opvr
 
 De "weggeknipte" artikelen zijn in dit geval vervangen door een zogenaamde "placeholder" dat het oorspronkelijk weggeknipte onderdeel beschrijft. Deze **DocumentNode-Placeholder** is een speciaal element binnen de XML namespace **https://schemas.knowmax.nl/2011/Quest**. Het proces om bij het opvragen van XML inhoud de eerder weggeknipte onderdelen weer toe te voegen heet **composeren**. Door aan het Web API verzoek **Api/Document/Data** de parameter **compose** toe te voegen met als waarde **true** zullen alle eerder weggeknipte onderdelen weer opgenomen worden in de XML. Het volgende verzoek **Api/Document/Data/mydocument/hfd1/par1-2?compose=true** aan de Web API zou bijvoorbeeld de volgende XML kunnen opleveren:
 
-```
+```XML
 <paragraaf id="par1-2">        
   <paragraaf-kop>§ 1.2. Toepassing normen en certificatie- en inspectieschema’s</paragraaf-kop>
   <artikel id="art1">

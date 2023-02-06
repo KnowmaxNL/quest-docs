@@ -36,7 +36,7 @@ Voor de bron **Api/Document/Data** is het ook mogelijk om op basis van het gevra
 
 Onderstaande JSON data geeft een voorbeeld van deze instelling voor een bepaalde transformatie. Door voor **transform** de waarde **[test]** te gebruiken, zal deze transformatie gekozen worden voor alle documenten die met de **QuestIni** importer geimporteerd zijn en voor het metawaarde veld **Custom.QuestImport** de waarde **TestXmlPublicatie** hebben.
 
-```
+```json
         {
           "test": {
             "ImporterId": "QuestIni",
