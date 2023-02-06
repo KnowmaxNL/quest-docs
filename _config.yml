@@ -33,7 +33,6 @@ playground:
     # Absolute URL starting with 'http'
     stylesheets: 
         - /css/normalize.css
-        - https://quest.knowmax.dec/css/knowmax.css
     
     # PLAYGROUND HEAD JAVASCRIPTS
     # Javascript in <head>. Can be either:
