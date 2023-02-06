@@ -3,12 +3,12 @@ title: Quest transformaties
 permalink: /concepts/quest-trans
 ---
 
-## Inleiding
+# Inleiding
 Knowmax Quest heeft de mogelijkheid om via de Web API opgevraagde documenten of documentonderdelen te transformeren volgens vooraf bepaalde transformatie-instellingen. In XML beschikbare documenten kunnen door Knowmax Quest worden omgezet naar HTML voor direct gebruik binnen op Knowmax Quest gebaseerde applicaties.
 
 Naast transformatie van XML naar HTML is het ook mogelijk afbeeldingen verkregen via de ingang **Api/Document/Data** om te zetten met behulp van de Imageresizer plugin. Ook voor het omzetten van onderdelen naar PDF zijn tranformaties mogelijk. Dit onderdeel zal uitsluitend ingaan op transformaties van XML naar HTML door middel van XSL.
 
-## Bronnen
+# Bronnen
 Er zijn op dit moment vier bronnen binnen Knowmax Quest die XML transformaties ondersteunen, te weten:
 
 1. **Api/Document/Data** voor het opvragen van de inhoud van een document-locatie;
@@ -18,7 +18,7 @@ Er zijn op dit moment vier bronnen binnen Knowmax Quest die XML transformaties o
 
 Mogelijk worden in de toekomst andere bronnen die transformaties ondersteunen toegevoegd.
 
-## Voorbeelden
+# Voorbeelden
 Om de opgevraagde inhoud te transformeren kan één van de binnen het gebruikte Quest systeem beschikbare transformaties worden aangesproken. Hiervoor wordt aan de URL de parameter **transform** met als waarde het label van één van de beschikbare transformaties toegevoegd.
 
 ```
@@ -31,7 +31,7 @@ https://quest.knowmax.dev/Api/Document/TocXml/pub24-xml?transform=inhoudsopgave-
 https://quest.knowmax.dev/Api/Document/InfoXml/pub24-xml?transform=info-xsl
 ```
 
-## Automatische keuze van transformatie
+# Automatische keuze van transformatie
 Voor de bron **Api/Document/Data** is het ook mogelijk om op basis van het gevraagde onderdeel automatisch een transformatie te kiezen. Deze keuze wordt gemaakt op basis van als JSON opgeslagen instellingen voor een bepaalde transformatie. Iedere transformatie kan dergelijke JSON keuzedata voor verschillende doeleinden bevatten. Om gebruik te kunnen maken van deze mogelijkheid moet de parameter **transform** een waarde tussen blokhaken bevatten. Deze waarde geeft aan welke JSON keuzedata getoetst moet worden.
 
 Onderstaande JSON data geeft een voorbeeld van deze instelling voor een bepaalde transformatie. Door voor **transform** de waarde **[test]** te gebruiken, zal deze transformatie gekozen worden voor alle documenten die met de **QuestIni** importer geimporteerd zijn en voor het metawaarde veld **Custom.QuestImport** de waarde **TestXmlPublicatie** hebben.
@@ -77,7 +77,6 @@ Node.Title | Titel van het documentonderdeel.
 Node.Sequence| Volgordenummer van het opgevraagde documentonderdeel in de inhoudsopgave van het document.
 Node.Level | Niveau van het opgvraagde documentonderdeel in inhoudsopgave van het document.
 Node.RootPath | Bevat path naar root van document. Gebruik deze als voorloper voor het opvragen van resources uit het document. Resources worden altijd opgeslagen relatief aan de root van het document.
-
 
 # Speciale onderdelen in de geïmporteerde XML
 Het is mogelijk dat tijdens de import van de XML in Knowmax Quest enkele speciale elementen en attributen in de XML gegenereerd zijn waar rekening mee gehouden dient te worden. Dit geldt alleen voor XML afkomstig uit een bron die een document(onderdeel) geeft. Deze aanvullingen zijn allen binnen de namespace **https://schemas.knowmax.nl/2011/Quest** met prefix **quest** opgenomen.
