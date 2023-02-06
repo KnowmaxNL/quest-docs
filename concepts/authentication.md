@@ -7,7 +7,7 @@ permalink: /concepts/authentication
 Knowmax Quest kent een aantal verschillende manieren om gebruikers te authenticeren en te autoriseren. In dit document wordt uitgelegd hoe deze werken en hoe ze gebruikt kunnen worden.
 
 ## Bearer token
-Alle verzoeken naar de API van Knowmax Quest moeten een geldig bearer token in de header hebben voor authenticatie en autorisatie van de gebruiker. het bearer token beschrijft wie de gebruiker is en wat de gebruiker mag. Wat een gebruik mag, wordt uitgedrukt in [claims](/concepts/claims)
+Alle verzoeken naar de API van Knowmax Quest moeten een geldig bearer token in de header hebben voor authenticatie en autorisatie van de gebruiker. het bearer token beschrijft wie de gebruiker is en wat de gebruiker mag. Wat een gebruiker mag, wordt uitgedrukt in [claims](/concepts/claims)
 
 ## Toepassingen
 Er zijn verschillende manieren om een bearer token voor toegang tot de API van Knowmax Quest te verkrijgen. De gekozen manier hangt af van de toepassing.
@@ -58,7 +58,6 @@ Bij deze opzet wordt server-to-server authenticatie gebruikt om een bearer token
 POST /api/authentication/magma
 ```
 
-
 ***Request body ```application/json```***
 ```json
 {
@@ -69,3 +68,4 @@ POST /api/authentication/magma
 
   }
 }
+```
