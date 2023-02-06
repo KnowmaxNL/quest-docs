@@ -3,7 +3,7 @@ title: Authenticatie en autorisatie
 permalink: /concepts/authentication
 ---
 
-# Authenticatie en autorisatie
+## Mehtodes van authenticatie en autorisatie
 Knowmax Quest kent een aantal verschillende manieren om gebruikers te authenticeren en te autoriseren. In dit document wordt uitgelegd hoe deze werken en hoe ze gebruikt kunnen worden.
 
 ## Bearer token

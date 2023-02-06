@@ -3,8 +3,6 @@ title: Quest identificatie
 permalink: /concepts/quest-id
 ---
 
-# Quest identificatie
-
 ## Inleiding
 Alle documenten in Knowmax Quest hebben een unieke identificatie. Dit document geeft uitleg over hoe deze identificatie is opgebouwd.
 
