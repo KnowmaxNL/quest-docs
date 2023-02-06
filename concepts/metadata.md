@@ -7,7 +7,7 @@ permalink: /concepts/metadata
 Alle voor documenten gevonden metadata wordt vastgelegd. Voor ieder soort metadata is een metadata definitie beschikbaar die een beschrijving geeft van het soort metadata. Deze beschrijving wordt bijvoorbeeld gebruikt tijdens het indexeren van de metadata door het zoeksysteem of het aanbieden van een editor voor het bewerken van specifieke metadata.
 
 ## Beschikbare metadata definities
-Er is een overzicht beschikbaar van alle definities van in het systeem opgenomen metawaarden. Tijdens het [importeren](\concepts\importers) van documenten worden metadata definities automatisch aangemaakt indien deze voor een bepaald soort metadata nog niet bestaan. Vanuit het overzicht kunnen per metadatadefinitie de eigenschappen worden bekeken en bewerkt.
+Er is een overzicht beschikbaar van alle definities van in het systeem opgenomen metawaarden. Tijdens het [importeren](/concepts/importers) van documenten worden metadata definities automatisch aangemaakt indien deze voor een bepaald soort metadata nog niet bestaan. Vanuit het overzicht kunnen per metadatadefinitie de eigenschappen worden bekeken en bewerkt.
 
 Er bestaat ook standaard metadata die Knowmax Quest automatisch voor alle documenten beheerd. De metadata definities voor deze standaard metadata kunnen niet bewerkt worden. Er is een overzicht beschikbaar met informatie hoe deze standaard metadata beschikbaar is via het zoeksysteem.
 
