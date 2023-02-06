@@ -17,8 +17,17 @@ Bij server-to-server toepassingen gaat het altijd om twee vertrouwde toepassinge
 
 Voor server-to-server toepassingen, gebruikt Knowmax Quest het Knowmax Magma systeem. Met een Knowmax Magma API sleutel kunnen gebruikers een bearer token verkrijgen.
 
-```
+***Endpoint***
+```curl
 POST /api/authentication/magma
+```
+
+***Request body ```application/json```***
+```json
+{
+  "magmaName": "waarde",
+  "secret": "waarde"
+}
 ```
 
 ## Client-to-server authenticatie
