@@ -33,7 +33,7 @@ playground:
     # Absolute URL starting with 'http'
     stylesheets: 
         - /css/normalize.css
-        # - /demo-only/css/photoswipe.css
+        - /css/knowmax.css
     
     # PLAYGROUND HEAD JAVASCRIPTS
     # Javascript in <head>. Can be either:
