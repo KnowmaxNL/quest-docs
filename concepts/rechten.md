@@ -1,6 +1,6 @@
 ---
-title: Claims
-permalink: /concepts/claims
+title: Rechten
+permalink: /concepts/rechen
 ---
 
 # Inleiding
@@ -10,26 +10,16 @@ Afhankelijk van de toegekende claims is het gebruik van bepaalde functionaliteit
 
 # Beschikbare claims
 
-## AllowUse
-Beschikbaar voor iedere gebruiker. Staat gebruik van basisfunctionaliteit toe.
+| Naam | Beschrijving |
+| --- | --- |
+| AllowUse | Staat gebruik van basisfunctionaliteit toe. |
+| AllowData | Staat het opvragen van data toe. |
+| AllowModify | Staat het maken van wijzigingen in data toe. |
+| AllowIndex | Staat het opvragen en beheren van indexen toe. |
+| AllowManagement | Staat toegang tot de beheerinterface toe. |
+| AllowAuthenticate | Staat authenticatie namens andere gebruikers toe. |
+| AllowStatistics | Staat het gebruik van Knowmax Quest Statistics toe. |
 
-## AllowData
-Staat het opvragen van data toe.
-
-## AllowModify
-Staat het maken van wijzigingen in data toe.
-
-## AllowIndex
-Staat het opvragen en beheren van indexen toe.
-
-## AllowManagement
-Staat toegang tot de beheerinterface toe.
-
-## AllowAuthenticate
-Staat authenticatie namens andere gebruikers toe.
-
-## AllowStatistics
-Staat het gebruik van Knowmax Quest Statistics toe.
 
 # Afscherming data
 De claim **AllowData** is nodig om data op te kunnen vragen. Mogelijk gelden er voor de Knowmax Magma API sleutel ook nog andere beperkingen die bepalen welke data op te vragen is. Het gaat dan om een berperking waardoor alleen de data van specifieke [Quest documenten](/concepts/quest-id) op te vragen is.
