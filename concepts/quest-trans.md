@@ -1,5 +1,5 @@
 ---
-title: Quest Transformaties
+title: Quest transformaties
 permalink: /concepts/quest-trans
 ---
 
@@ -22,13 +22,13 @@ Mogelijk worden in de toekomst andere bronnen die transformaties ondersteunen to
 Om de opgevraagde inhoud te transformeren kan één van de binnen het gebruikte Quest systeem beschikbare transformaties worden aangesproken. Hiervoor wordt aan de URL de parameter **transform** met als waarde het label van één van de beschikbare transformaties toegevoegd.
 
 ```
-http://quest.bris.nl/Api/Document/Data/pub24-xml/1/1.2?transform=publicatie-xsl
+https://quest.knowmax.dev/Api/Document/Data/pub24-xml/1/1.2?transform=publicatie-xsl
 ```
 ```
-http://quest.bris.nl/Api/Document/TocXml/pub24-xml?transform=inhoudsopgave-xsl 
+https://quest.knowmax.dev/Api/Document/TocXml/pub24-xml?transform=inhoudsopgave-xsl 
 ```
 ```
-http://quest.bris.nl/Api/Document/InfoXml/pub24-xml?transform=info-xsl
+https://quest.knowmax.dev/Api/Document/InfoXml/pub24-xml?transform=info-xsl
 ```
 
 ## Automatische keuze van transformatie
@@ -63,7 +63,7 @@ Momenteel zijn parameters alleen beschikbaar als een bron gebruikt wordt waarbij
 
 Parameter | Omschrijving
 --- | ---
-Quest.UrlPattern | Met het URL-patroon is de volledige URL te reconstrueren om de inhoud van dit onderdeel op te vragen. Bijvoorbeeld: **http://quest.bris.nl/Api/Document/Data/{0}** . **{0}** beschrijft in dit patroon het onderdeel dat vervangen kan worden door een Quest identificatie.
+Quest.UrlPattern | Met het URL-patroon is de volledige URL te reconstrueren om de inhoud van dit onderdeel op te vragen. Bijvoorbeeld: **https://quest.knowmax.dev/Api/Document/Data/{0}** . **{0}** beschrijft in dit patroon het onderdeel dat vervangen kan worden door een Quest identificatie.
 Document.QuestId | Quest identificatie van het document zonder eventuele identificatie voor het documentonderdeel.
 Document.Title | Titel van het hele document.
 Version.Current |	Geeft aan of dit de huidige versie van het document betreft. Mogelijke waarden: **true** en **false**.
@@ -80,7 +80,7 @@ Node.RootPath | Bevat path naar root van document. Gebruik deze als voorloper vo
 
 
 # Speciale onderdelen in de geïmporteerde XML
-Het is mogelijk dat tijdens de import van de XML in Knowmax Quest enkele speciale elementen en attributen in de XML gegenereerd zijn waar rekening mee gehouden dient te worden. Dit geldt alleen voor XML afkomstig uit een bron die een document(onderdeel) geeft. Deze aanvullingen zijn allen binnen de namespace **http://schemas.knowmax.nl/2011/Quest** met prefix **quest** opgenomen.
+Het is mogelijk dat tijdens de import van de XML in Knowmax Quest enkele speciale elementen en attributen in de XML gegenereerd zijn waar rekening mee gehouden dient te worden. Dit geldt alleen voor XML afkomstig uit een bron die een document(onderdeel) geeft. Deze aanvullingen zijn allen binnen de namespace **https://schemas.knowmax.nl/2011/Quest** met prefix **quest** opgenomen.
 
 Parameter | Omschrijving
 --- | ---
@@ -89,9 +89,9 @@ ResourceName (xml-attribuut) | ResourceName is een attribuut dat wordt toegevoeg
 ResourceStatus (xml-attribuut) | Ondersteunde importers zullen elementen die verwijzen naar media zoals afbeeldingen voorzien van dit attribuut om aan te geven wat de status van de media is waarnaar verwezen wordt. Mogelijke waarden: **Valid**, **NotFound**, **Damaged**. Afhankelijk van de gebruikte importer kan het zo zijn dat dit attribuut alleen voorkomt bij verwijzingen naar media die niet de status **Valid** hebben.
 
 # Speciale onderdelen in XML na compositie
-Als bij het opvragen van een XML document(onderdeel) compositie wordt toegepast, kunnen er mogelijk enkele speciale XML attributen aan de XML toegevoegd worden. Dit geldt alleen voor XML afkomstig uit een bron die een document(onderdeel) geeft. Deze aanvullingen zijn allen binnen de namespace **http://schemas.knowmax.nl/2011/Quest** met prefix **quest** opgenomen.
+Als bij het opvragen van een XML document(onderdeel) compositie wordt toegepast, kunnen er mogelijk enkele speciale XML attributen aan de XML toegevoegd worden. Dit geldt alleen voor XML afkomstig uit een bron die een document(onderdeel) geeft. Deze aanvullingen zijn allen binnen de namespace **https://schemas.knowmax.nl/2011/Quest** met prefix **quest** opgenomen.
 
 Parameter | Omschrijving
 --- | ---
 QuestId (xml-attribuut) | Het attribuut QuestId bevat de volledige Quest-identificatie voor het betreffende document(onderdeel), inclusief het versienummer indien van toepassing.
-QuestUrlPattern (xml-attribuut) | Het attribuut QuestURLPattern bevat het patroon hoe he betreffende documentonderdeel opgevraagd kan worden bij de Knowmax Quest API. Bijvoorbeeld: **http://quest.bris.nl/Api/Document/Data/{0}** . **{0}** beschrijft in dit patroon het onderdeel dat vervangen kan worden door een Quest identificatie.
+QuestUrlPattern (xml-attribuut) | Het attribuut QuestURLPattern bevat het patroon hoe he betreffende documentonderdeel opgevraagd kan worden bij de Knowmax Quest API. Bijvoorbeeld: **https://quest.knowmax.dev/Api/Document/Data/{0}** . **{0}** beschrijft in dit patroon het onderdeel dat vervangen kan worden door een Quest identificatie.

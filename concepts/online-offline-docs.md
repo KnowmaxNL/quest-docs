@@ -13,9 +13,9 @@ Door de parameter **allowoffline** met waarde **true** aan het verzoek toe te vo
 ## Voorbeelden
 Stel versie **2** van document **docs/regeling-abc** heeft de status **offline**. Het volgende verzoek zal dan geen resultaat geven omdat de versie offline is:
 ```
-http://quest.bris.nl/Api/Document/Info/docs/regeling-abc/hfd1[2]
+https://quest.knowmax.dev/Api/Document/Info/docs/regeling-abc/hfd1[2]
 ```
 Door met de parameter **allowoffline** expliciet aan te geven dat het opvragen van een versie met status **offline** is toegestaan, zal het verzoek wel resultaat geven:
 ```
-http://quest.bris.nl/Api/Document/Info/docs/regeling-abc/hfd1[2]?allowoffline=true
+https://quest.knowmax.dev/Api/Document/Info/docs/regeling-abc/hfd1[2]?allowoffline=true
 ```
