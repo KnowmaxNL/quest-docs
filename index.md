@@ -1,4 +1,4 @@
-# Welkom bij Knowmax Quest for Developers
+# Welkom bij Knowmax Quest voor Developers
 
 [Quest identificaties](/concepts/quest-id)
 
