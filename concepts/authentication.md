@@ -84,4 +84,4 @@ POST /api/authentication/magma
   }
 }
 ```
-**email** en **organisationName** zijn optioneel. Met de **allowX** waarden kunnen de gewenste [rechten](/concepts/rechten) voor de gebruiker worden ingesteld. Alleen rechten die ook beschikbaar zijn voor de gebruikte Knowmax Magma API sleutel kunnen worden ingesteld. Het **AllowAuthenticate** recht kan niet ingesteld worden voor een gedelegeerde gebruiker.
+**email** en **organisationName** zijn optioneel. Met de **allowX** waarden kunnen de gewenste [rechten](/concepts/rights) voor de gebruiker worden ingesteld. Alleen rechten die ook beschikbaar zijn voor de gebruikte Knowmax Magma API sleutel kunnen worden ingesteld. Het **AllowAuthenticate** recht kan niet ingesteld worden voor een gedelegeerde gebruiker.
