@@ -7,7 +7,12 @@ permalink: /concepts/authentication
 Knowmax Quest kent een aantal verschillende manieren om gebruikers te authenticeren en te autoriseren. We beschrijven hier hoe deze werken en hoe ze gebruikt kunnen worden.
 
 # Bearer token
-Alle verzoeken naar de API van Knowmax Quest moeten een geldig bearer token in de header hebben voor authenticatie en autorisatie van de gebruiker. het bearer token beschrijft wie de gebruiker is en wat de [rechten](/concepts/rechten) zijn van de gebruiker.
+Alle verzoeken naar de API van Knowmax Quest moeten een geldig bearer token in de header hebben voor authenticatie en autorisatie van de gebruiker. Het bearer token beschrijft wie de gebruiker is en wat de [rechten](/concepts/rights) zijn van de gebruiker. Knowmax Quest gebruikt een JSON Web Token (JWT), deze wordt bij ieder verzoek aan Knowmax Quest in de ***Authorization*** header meegestuurd door gebruik te maken van het ***Bearer*** schema.
+
+```
+Authorization: Bearer <token>
+```
+Zie [JWT.io](https://jwt.io/) voor meer informatie over JWT.
 
 # Toepassingen
 Er zijn verschillende manieren om een bearer token voor toegang tot de API van Knowmax Quest te verkrijgen. De gekozen manier hangt af van de toepassing.
