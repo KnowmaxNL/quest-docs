@@ -13,7 +13,7 @@ Alle verzoeken naar de API van Knowmax Quest moeten een geldig bearer token in d
 Authorization: Bearer <token>
 ```
 
->Zie [JWT.io](https://jwt.io/introduction/) voor meer informatie over JWT.
+> :bulb: Zie [JWT.io](https://jwt.io/introduction/) voor meer informatie over JWT.
 
 # Toepassingen
 Er zijn verschillende manieren om een bearer token voor toegang tot de API van Knowmax Quest te verkrijgen. De gekozen manier hangt af van de toepassing.
@@ -59,9 +59,7 @@ POST /api/authentication/licencesystem
 ## Gedelegeerde authenticatie
 Bij gedelegeerde authenticatie wordt server-to-server authenticatie gebruikt om een bearer token te verkrijgen voor een andere gebruiker. Een bearer token voor de client wordt in dit geval op de vertrouwde server aangevraagd namens de gebruiker. Deze bearer token kan vervolgens in de minder vertrouwde client gebruikt worden voor directe communicatie met de Knowmax Quest server.
 
-> Gedelegeerde authenticatie is alleen beschikbaar voor Knowmax Magma API sleutels met het ***AllowAuthenticate*** recht.
-> ===
-
+> :warning: Gedelegeerde authenticatie is alleen beschikbaar voor Knowmax Magma API sleutels met het ***AllowAuthenticate*** recht.
 
 ***Endpoint***
 ```
@@ -86,5 +84,4 @@ POST /api/authentication/magma
   }
 }
 ```
-
-**email** en **organisationName** zijn optioneel. Met de **allowX** waarden kunnen de gewenste [rechten](/concepts/rechten) voor de gebruiker worden ingesteld. Alleen rechten die ook beschikbaar zijn voor de gebruikte Knowmax Magma API sleutel kunnen worden ingesteld.
+**email** en **organisationName** zijn optioneel. Met de **allowX** waarden kunnen de gewenste [rechten](/concepts/rechten) voor de gebruiker worden ingesteld. Alleen rechten die ook beschikbaar zijn voor de gebruikte Knowmax Magma API sleutel kunnen worden ingesteld. Het **AllowAuthenticate** recht kan niet ingesteld worden voor een gedelegeerde gebruiker.
