@@ -13,7 +13,7 @@ Alle verzoeken naar de API van Knowmax Quest moeten een geldig bearer token in d
 Authorization: Bearer <token>
 ```
 
-> Zie [JWT.io](https://jwt.io/introduction/) voor meer informatie over JWT.
+> Zie [JWT.io](https://jwt.io/introduction/) voor meer informatie over JSON Web Tokens.
 
 # Toepassingen
 Er zijn verschillende manieren om een bearer token voor toegang tot de API van Knowmax Quest te verkrijgen. De gekozen manier hangt af van de toepassing.
@@ -21,7 +21,7 @@ Er zijn verschillende manieren om een bearer token voor toegang tot de API van K
 # Server-to-server authenticatie
 Bij server-to-server toepassingen gaat het altijd om twee vertrouwde toepassingen die met elkaar communiceren. De Knowmax Quest server aan de ene kant en de vertouwde server van de gebruiker aan de andere kant. Het vertrouwen bestaat er uit dat de geheime Knowmax Magma API sleutel velig kan worden opgeslagen op de server van de gebruiker.
 
-:memo: Voor server-to-server toepassingen, gebruikt Knowmax Quest het Knowmax Magma systeem. Met een Knowmax Magma API sleutel kunnen gebruikers een bearer token verkrijgen.
+> Voor server-to-server toepassingen, gebruikt Knowmax Quest het Knowmax Magma systeem. Met een Knowmax Magma API sleutel kunnen gebruikers een bearer token verkrijgen.
 
 ***Endpoint***
 ```
@@ -59,7 +59,7 @@ POST /api/authentication/licencesystem
 ## Gedelegeerde authenticatie
 Bij gedelegeerde authenticatie wordt server-to-server authenticatie gebruikt om een bearer token te verkrijgen voor een andere gebruiker. Een bearer token voor de client wordt in dit geval op de vertrouwde server aangevraagd namens de gebruiker. Deze bearer token kan vervolgens in de minder vertrouwde client gebruikt worden voor directe communicatie met de Knowmax Quest server.
 
-> Gedelegeerde authenticatie is alleen beschikbaar voor Knowmax Magma API sleutels met het ***AllowAuthenticate*** recht.
+> Gedelegeerde authenticatie is alleen beschikbaar voor Knowmax Magma API sleutels met het **AllowAuthenticate** recht.
 
 ***Endpoint***
 ```
