@@ -70,7 +70,7 @@ POST /api/authentication/magma
 ```json
 {
   "magmaName": "name-from-knowmax-magma",
-  "secret": "secret-from-knowmax-magma"
+  "secret": "secret-from-knowmax-magma",
   "user": {
     "id": "id-of-user",
     "name": "name-of-user",
