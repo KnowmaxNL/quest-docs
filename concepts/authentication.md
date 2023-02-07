@@ -13,8 +13,7 @@ Alle verzoeken naar de API van Knowmax Quest moeten een geldig bearer token in d
 Authorization: Bearer <token>
 ```
 
-{: .note .info}
-Zie [JWT.io](https://jwt.io/introduction/) voor meer informatie over JWT.
+> Zie [JWT.io](https://jwt.io/introduction/) voor meer informatie over JWT.
 
 # Toepassingen
 Er zijn verschillende manieren om een bearer token voor toegang tot de API van Knowmax Quest te verkrijgen. De gekozen manier hangt af van de toepassing.
