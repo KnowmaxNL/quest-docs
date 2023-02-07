@@ -59,8 +59,7 @@ POST /api/authentication/licencesystem
 ## Gedelegeerde authenticatie
 Bij gedelegeerde authenticatie wordt server-to-server authenticatie gebruikt om een bearer token te verkrijgen voor een andere gebruiker. Een bearer token voor de client wordt in dit geval op de vertrouwde server aangevraagd namens de gebruiker. Deze bearer token kan vervolgens in de minder vertrouwde client gebruikt worden voor directe communicatie met de Knowmax Quest server.
 
-{: .note .info}
-Gedelegeerde authenticatie is alleen beschikbaar voor Knowmax Magma API sleutels met het ***AllowAuthenticate*** recht.
+> Gedelegeerde authenticatie is alleen beschikbaar voor Knowmax Magma API sleutels met het ***AllowAuthenticate*** recht.
 
 ***Endpoint***
 ```
