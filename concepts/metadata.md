@@ -3,7 +3,6 @@ title: Metadata definities
 permalink: /concepts/metadata
 ---
 
-# Inleiding
 Alle voor documenten gevonden metadata wordt vastgelegd. Voor ieder soort metadata is een metadata definitie beschikbaar die een beschrijving geeft van het soort metadata. Deze beschrijving wordt bijvoorbeeld gebruikt tijdens het indexeren van de metadata door het zoeksysteem of het aanbieden van een editor voor het bewerken van specifieke metadata.
 
 # Beschikbare metadata definities

@@ -3,7 +3,6 @@ title: Quest transformaties
 permalink: /concepts/quest-trans
 ---
 
-# Inleiding
 Knowmax Quest heeft de mogelijkheid om via de Web API opgevraagde documenten of documentonderdelen te transformeren volgens vooraf bepaalde transformatie-instellingen. In XML beschikbare documenten kunnen door Knowmax Quest worden omgezet naar HTML voor direct gebruik binnen op Knowmax Quest gebaseerde applicaties.
 
 Naast transformatie van XML naar HTML is het ook mogelijk afbeeldingen verkregen via de ingang **Api/Document/Data** om te zetten met behulp van de Imageresizer plugin. Ook voor het omzetten van onderdelen naar PDF zijn tranformaties mogelijk. Dit onderdeel zal uitsluitend ingaan op transformaties van XML naar HTML door middel van XSL.

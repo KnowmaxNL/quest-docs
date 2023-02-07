@@ -1,6 +1,6 @@
-# Welkom bij Knowmax Quest voor Developers
+# Welkom bij Knowmax Quest voor ontwikkelaars
 
-- [Authenticatie en autorisatie](/concepts/authentication)
+- [Authenticatie en autorisatie](/concepts/authentication) 
 
 - [Quest identificaties](/concepts/quest-id) <br/>
   In dit onderdeel wordt met behulp van een aantal voorbeelden toegelicht hoe een Knowmax Quest identificatie is opgebouwd
