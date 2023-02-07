@@ -21,7 +21,7 @@ Er zijn verschillende manieren om een bearer token voor toegang tot de API van K
 # Server-to-server authenticatie
 Bij server-to-server toepassingen gaat het altijd om twee vertrouwde toepassingen die met elkaar communiceren. De Knowmax Quest server aan de ene kant en de vertouwde server van de gebruiker aan de andere kant. Het vertrouwen bestaat er uit dat de geheime Knowmax Magma API sleutel velig kan worden opgeslagen op de server van de gebruiker.
 
-Voor server-to-server toepassingen, gebruikt Knowmax Quest het Knowmax Magma systeem. Met een Knowmax Magma API sleutel kunnen gebruikers een bearer token verkrijgen.
+:memo: Voor server-to-server toepassingen, gebruikt Knowmax Quest het Knowmax Magma systeem. Met een Knowmax Magma API sleutel kunnen gebruikers een bearer token verkrijgen.
 
 ***Endpoint***
 ```
