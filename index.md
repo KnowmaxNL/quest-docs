@@ -1,7 +1,9 @@
 # Welkom bij Knowmax Quest voor ontwikkelaars
 
-- [Authenticatie en autorisatie](/concepts/authentication) 
-
+- [Authenticatie en autorisatie](/concepts/authentication) <br/>
+  Toegang krijgen tot de Knowmax Quest API
+- [Rechten](/concepts/rights)<br/>
+  Beschrijft beschikbare rechten.
 - [Quest identificaties](/concepts/quest-id) <br/>
   In dit onderdeel wordt met behulp van een aantal voorbeelden toegelicht hoe een Knowmax Quest identificatie is opgebouwd
 - [Quest transformaties](/concepts/quest-trans) <br/>
