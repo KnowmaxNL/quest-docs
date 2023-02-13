@@ -97,9 +97,9 @@ Bevat een record per keer dat data is opgevraagd voor een **documentnode** door 
 Geeft aan of een bepaalde identiteit een bepaald document, documentversie of documentnode als favoriet heeft gemarkeerd. Alleen beschikbaar als de module Knowmax Quest Favorites is ingeschakeld.
 
 # Overige tabellen
-Vanuit de tabellen voor statistieken zijn er verwijzingen naar de tabellen **Document**, **DocumentVersion** en **DocumentNode**. Deze tabellen alle informatie over respectievelijk een document, een versie binnen een document, een node binnen en document versie.
+Vanuit de tabellen voor statistieken zijn er verwijzingen naar de tabellen **Document**, **DocumentVersion** en **DocumentNode**. Deze tabellen bevatten alle informatie over respectievelijk een document, een documentversie binnen een document en een node binnen een documentversie.
 
-Deze tabellen kunnen gebruikt worden om een interpretatie te geven aan de 
+Deze tabellen kunnen gebruikt worden om een interpretatie te geven aan de opgevraagde onderdelen in de verschillende statistieken.
 
 # "Pure" tabellen DocumentPureStatistics en IdentityDocumentPureStatistics
 Binnen Knowmax Quest kan de laatste documentversie overschreven worden. Dat kan bijvoorbeeld voorkomen om een kleine fout op te lossen. Knowmax raadt het overschrijven van versies over het algemeen af. De aanbevolen manier is het toevoegen van een nieuwe versie. Wanneer er toch gekozen wordt om de laatste versie te overschrijven, zal er in de tabel **DocumentVersion** een nieuwe documentversie worden toegevoegd. De bijbehorende statistieken die verzwijzen naar de overschreven documentversion zullen verdwijnen uit de statistieken [^1]. De nieuwe versie is immers nog nooit door iemand bekeken.
