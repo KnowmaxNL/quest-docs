@@ -46,7 +46,7 @@ Knowmax Quest kan optioneel gekoppeld zijn aan een Knowmax Licentiesysteem. In d
 
 ***Endpoint***
 ```
-POST /api/authentication/licencesystem
+POST /api/authentication/licensesystem
 ```
 
 ***Request body ```application/json```***
