@@ -18,9 +18,9 @@ Er bestaat ook standaard metadata die Knowmax Quest automatisch voor alle docume
 De identificatie van metadatadefinities is opgebouwd uit een label en het label van de familie waar de metadatadefinitie onderdeel van is. Binnen een familie moeten de labels van metadatadefinities uniek zijn. 
 
 # Meerdere waarden voor metadatadefinitie
-Er kunnen meerdere waarden voor metadata volgens een bepaalde metadatadefinitie voorkomen voor een document, documentversie of documentnode. Als voor een metadatadefinitie meerdere waarden zijn toegestaan, moeten scheidingstekens (fieldMultiValueSeparators) om meerdere waarden te herkennen gedefinieerd zijn voor die metadatadefinitie. 
+Er kunnen meerdere waarden voor metadata volgens een bepaalde metadatadefinitie voorkomen voor een document, documentversie of documentnode. Als voor een metadatadefinitie meerdere waarden zijn toegestaan, moeten scheidingstekens (fieldMultiValueSeparators) om meerdere waarden te herkennen gedefinieerd zijn voor die metadatadefinitie om met de API endpoint voor metawaarde mutaties te werken. 
 
-De endpoints voor het muteren van metadata zullen de waarden voor een bepaalde metadatadefinitie splitsen op basis van de eventueel ingestelde scheidingstekens.
+De endpoints voor het muteren van metadata zullen de waarden voor een bepaalde metadatadefinitie splitsen op basis van de eventueel ingestelde scheidingstekens. De API endpoints voor de mutatie van metawaarden accepteren de waarde alleen als string waarbij de opgegeven scheidingstekens gebruikt worden om de waarde te splitsen. Er kan dus geen JSON array van strings gebruikt worden.
 
 ## Voorbeeld: scheidingstekens ```,/;```
 
@@ -32,10 +32,10 @@ a/b;c | 3 waarden: a, b en c
 a-b,c | 2 waarden: a-b en c
 
 ## Achteraf instellen van scheidingstekens
-Als de scheidingstekens voor de metadatadefintie tijdens het vastleggen van de waarde niet opgegeven zijn, zal de waarde als één waarde worden opgeslagen. Als na het vastleggen van de waarde scheidingstekens worden gedefinieerd, zullen de waarden die al zijn vastgelegd niet worden gesplitst. Mochten waarden van deze metadatadefinitie gebruikt worden in een zoekindex, dan zal de indexer van het zoeksysteem de waarden alsnog splitsen.
+Als de scheidingstekens voor de metadatadefintie tijdens het vastleggen van de waarde niet opgegeven zijn, zal de waarde als één waarde worden opgeslagen. Als na het vastleggen van de waarde scheidingstekens worden gedefinieerd, zullen de waarden die al zijn vastgelegd niet alsnog worden gesplitst. Mochten waarden van deze metadatadefinitie gebruikt worden in een zoekindex, dan zal de indexer van het zoeksysteem de waarden alsnog gesplitst (dus als meerdere waarden) opnemen in de zoekindex. De eigenlijke waarde van de metadata wordt niet aangepast.
 
 ## Importers
-Voor metadata die tijdens het importeren van documenten door de [importer](/concepts/importers) worden vastgelegd, wordt geen gebruik gemaakt van de scheidingstekens. Importers hanteren hun eigen regels om voor een bepaalde metadatadefinitie meerdere waarden vast te leggen. 
+Voor metadata die tijdens het importeren van documenten door de [importer](/concepts/importers) worden vastgelegd, wordt geen gebruik gemaakt van de scheidingstekens om waarden te splitsen. Importers hanteren hun eigen regels om voor een bepaalde metadatadefinitie meerdere waarden vast te leggen. 
 
 # Datatype hint
 Alle waarden voor metadata worden als tekst opgeslagen. Met een datatype hint kan worden aangegeven hoe de waarde te interpreteren is. Het ingebouwde zoeksysteem kan deze hint gebruiken om metadata op de juiste wijze te indexeren. Daarnaast kunnen specifieke client systemen de hint gebruiken om de metadata op een bepaalde manier te verwerken. De volgende datatypen zijn beschikbaar.
