@@ -37,6 +37,12 @@ Als de scheidingstekens voor de metadatadefintie tijdens het vastleggen van de w
 ## Importers
 Voor metadata die tijdens het importeren van documenten door de [importer](/concepts/importers) worden vastgelegd, wordt geen gebruik gemaakt van de scheidingstekens om waarden te splitsen. Importers hanteren hun eigen regels om voor een bepaalde metadatadefinitie meerdere waarden vast te leggen. 
 
+# Automatisch opschonen metadatadefinities
+Periodiek zullen ongebruikte metadatadefinities automatisch verwijderd worden. Een metadatadefinitie geldt als ongebruikt als er geen documenten, documentversies, document nodes of collecties zijn die waarden voor een metadatadefintie hebben.
+
+## Automatisch opschonen voorkomen
+Om te voorkomen dat een metadatadefinitie verwijderd wordt tijdens het opschonen, kan het veld ```preserve``` de waarde ```true``` krijgen. Als dit veld ```true``` is, zal de metadatadefinitie niet verwijderd worden tijdens het opschonen.
+
 # Datatype hint
 Alle waarden voor metadata worden als tekst opgeslagen. Met een datatype hint kan worden aangegeven hoe de waarde te interpreteren is. Het ingebouwde zoeksysteem kan deze hint gebruiken om metadata op de juiste wijze te indexeren. Daarnaast kunnen specifieke client systemen de hint gebruiken om de metadata op een bepaalde manier te verwerken. De volgende datatypen zijn beschikbaar.
 
