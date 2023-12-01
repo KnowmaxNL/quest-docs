@@ -37,7 +37,7 @@ POST /api/authentication/magma
 ```
 
 # Client-to-server authenticatie
-Client-to-server toepassingen werken op een client, zoals een webbrowser of een mobiele app. We kunnen er niet op vertrouwen dat de geheime Knowmax Magma API sleutel er veilig kan worden opgeslagen. Verder zullen er mogelijk vele clients zijn die communiceren met de Knowmax Quest server. Het is niet praktisch die allemaal met 1 Knowmax Magma API sleutel te laten werken. We veliezen dan de mogelijkheid om een enkele client de toegang te ontzeggen zonder dat andere clients daar last van hebben.
+Client-to-server toepassingen werken op een client, zoals een webbrowser of een mobiele app. We kunnen er niet op vertrouwen dat de geheime Knowmax Magma API sleutel er veilig kan worden opgeslagen. Verder zullen er mogelijk vele clients zijn die communiceren met de Knowmax Quest server. Het is niet praktisch die allemaal met 1 Knowmax Magma API sleutel te laten werken. We verliezen dan de mogelijkheid om een enkele client de toegang te ontzeggen zonder dat andere clients daar last van hebben.
 
 Voor client-to-server toepassingen zijn er twee manieren om een bearer token te verkrijgen.
 
