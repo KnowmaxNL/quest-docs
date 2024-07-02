@@ -82,7 +82,8 @@ POST /api/authentication/magma
     "allowIndex": true,
     "allowModify": true,
     "allowStatistics": true,
-    "allowManagement": true    
+    "allowManagement": true,
+    "allowAdministration": false    
   }
 }
 ```
