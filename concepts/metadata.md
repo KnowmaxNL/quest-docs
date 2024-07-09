@@ -18,7 +18,7 @@ Er bestaat ook standaard metadata die Knowmax Quest automatisch voor alle docume
 De identificatie van metadatadefinities is opgebouwd uit een label en het label van de familie waar de metadatadefinitie onderdeel van is. Binnen een familie moeten de labels van metadatadefinities uniek zijn. 
 
 # Bewerken van metadata
-Metadata die door middel van een [importer](/concepts/importers) is toegevoegd wordt *altijd* aan een documentversie gekoppeld. Deze metadata is achteraf niet te bewerken (ReadOnly). De enige mogelijkheid om deze metadata te wijzigen is door het document opnieuw te importeren. Metadata die *na* de import aan een document, documentversie of documentversie-node is toegevoegd is wel bewerkbaar.
+Metadata die door middel van een [importer](/concepts/importers) is toegevoegd wordt *altijd* aan een documentversie gekoppeld. Deze metadata is achteraf niet te bewerken (ReadOnly). De enige mogelijkheid om deze metadata te wijzigen is door het document opnieuw te importeren. Metadata die *na* de import aan een document, documentversie of documentnode is toegevoegd is wel bewerkbaar.
 
 # Meerdere waarden voor metadatadefinitie
 Er kunnen meerdere waarden voor metadata volgens een bepaalde metadatadefinitie voorkomen voor een document, documentversie of documentnode. Als voor een metadatadefinitie meerdere waarden zijn toegestaan, moeten scheidingstekens (fieldMultiValueSeparators) om meerdere waarden te herkennen gedefinieerd zijn voor die metadatadefinitie om met de API endpoint voor metawaarde mutaties te werken. 
