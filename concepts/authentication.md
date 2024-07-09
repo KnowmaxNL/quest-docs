@@ -13,15 +13,17 @@ Alle verzoeken naar de API van Knowmax Quest moeten een geldig bearer token in d
 Authorization: Bearer <token>
 ```
 
-> Zie [JWT.io](https://jwt.io/introduction/) voor meer informatie over JWT.
+> Zie [JWT.io](https://jwt.io/introduction/) voor meer informatie over JSON Web Tokens.
 
 # Toepassingen
 Er zijn verschillende manieren om een bearer token voor toegang tot de API van Knowmax Quest te verkrijgen. De gekozen manier hangt af van de toepassing.
 
 # Server-to-server authenticatie
-Bij server-to-server toepassingen gaat het altijd om twee vertrouwde toepassingen die met elkaar communiceren. De Knowmax Quest server aan de ene kant en de vertouwde server van de gebruiker aan de andere kant. Het vertrouwen bestaat er uit dat de geheime Knowmax Magma API sleutel velig kan worden opgeslagen op de server van de gebruiker.
+Bij server-to-server toepassingen gaat het altijd om twee vertrouwde toepassingen die met elkaar communiceren. De Knowmax Quest server aan de ene kant en de vertrouwde server van de gebruiker aan de andere kant. Het vertrouwen bestaat er uit dat de geheime Knowmax Magma API sleutel velig kan worden opgeslagen op de server van de gebruiker.
 
-Voor server-to-server toepassingen, gebruikt Knowmax Quest het Knowmax Magma systeem. Met een Knowmax Magma API sleutel kunnen gebruikers een bearer token verkrijgen.
+> Voor server-to-server toepassingen, gebruikt Knowmax Quest het Knowmax Magma systeem. Met een Knowmax Magma API sleutel kunnen gebruikers een bearer token verkrijgen.
+
+> ***Gebruik Magma authenticatiegegevens en op deze manier verkregen tokens nooit in de webbrowser van een eindgebruiker! Deze gegevens moeten altijd op een beveiligde manier opgeslagen en gebruikt worden!***
 
 ***Endpoint***
 ```
@@ -37,7 +39,7 @@ POST /api/authentication/magma
 ```
 
 # Client-to-server authenticatie
-Client-to-server toepassingen werken op een client, zoals een webbrowser of een mobiele app. We kunnen er niet op vertrouwen dat de geheime Knowmax Magma API sleutel er veilig kan worden opgeslagen. Verder zullen er mogelijk vele clients zijn die communiceren met de Knowmax Quest server. Het is niet praktisch die allemaal met 1 Knowmax Magma API sleutel te laten werken. We veliezen dan de mogelijkheid om een enkele client de toegang te ontzeggen zonder dat andere clients daar last van hebben.
+Client-to-server toepassingen werken op een client, zoals een webbrowser of een mobiele app. We kunnen er niet op vertrouwen dat de geheime Knowmax Magma API sleutel er veilig kan worden opgeslagen. Verder zullen er mogelijk vele clients zijn die communiceren met de Knowmax Quest server. Het is niet praktisch die allemaal met 1 Knowmax Magma API sleutel te laten werken. We verliezen dan de mogelijkheid om een enkele client de toegang te ontzeggen zonder dat andere clients daar last van hebben.
 
 Voor client-to-server toepassingen zijn er twee manieren om een bearer token te verkrijgen.
 
@@ -46,7 +48,7 @@ Knowmax Quest kan optioneel gekoppeld zijn aan een Knowmax Licentiesysteem. In d
 
 ***Endpoint***
 ```
-POST /api/authentication/licencesystem
+POST /api/authentication/licensesystem
 ```
 
 ***Request body ```application/json```***
@@ -59,8 +61,7 @@ POST /api/authentication/licencesystem
 ## Gedelegeerde authenticatie
 Bij gedelegeerde authenticatie wordt server-to-server authenticatie gebruikt om een bearer token te verkrijgen voor een andere gebruiker. Een bearer token voor de client wordt in dit geval op de vertrouwde server aangevraagd namens de gebruiker. Deze bearer token kan vervolgens in de minder vertrouwde client gebruikt worden voor directe communicatie met de Knowmax Quest server.
 
-{: .note .info}
-Gedelegeerde authenticatie is alleen beschikbaar voor Knowmax Magma API sleutels met het ***AllowAuthenticate*** recht.
+> Gedelegeerde authenticatie is alleen beschikbaar voor Knowmax Magma API sleutels met het **AllowAuthenticate** recht.
 
 ***Endpoint***
 ```
@@ -71,7 +72,7 @@ POST /api/authentication/magma
 ```json
 {
   "magmaName": "name-from-knowmax-magma",
-  "secret": "secret-from-knowmax-magma"
+  "secret": "secret-from-knowmax-magma",
   "user": {
     "id": "id-of-user",
     "name": "name-of-user",
@@ -81,8 +82,9 @@ POST /api/authentication/magma
     "allowIndex": true,
     "allowModify": true,
     "allowStatistics": true,
-    "allowManagement": true    
+    "allowManagement": true,
+    "allowAdministration": false    
   }
 }
 ```
-**email** en **organisationName** zijn optioneel. Met de **allowX** waarden kunnen de gewenste [rechten](/concepts/rechten) voor de gebruiker worden ingesteld. Alleen rechten die ook beschikbaar zijn voor de gebruikte Knowmax Magma API sleutel kunnen worden ingesteld. Het **AllowAuthenticate** recht kan niet ingesteld worden voor een gedelegeerde gebruiker.
+**email** en **organisationName** zijn optioneel. Met de **allowX** waarden kunnen de gewenste [rechten](/concepts/rights) voor de gebruiker worden ingesteld. Alleen rechten die ook beschikbaar zijn voor de gebruikte Knowmax Magma API sleutel kunnen worden ingesteld. Het **AllowAuthenticate** recht kan niet ingesteld worden voor een gedelegeerde gebruiker.

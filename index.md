@@ -1,7 +1,9 @@
-# Welkom bij Knowmax Quest voor Developers
+# Welkom bij Knowmax Quest voor ontwikkelaars
 
-- [Authenticatie en autorisatie](/concepts/authentication)
-
+- [Authenticatie en autorisatie](/concepts/authentication) <br/>
+  Toegang krijgen tot de Knowmax Quest API
+- [Rechten](/concepts/rights)<br/>
+  Beschrijft beschikbare rechten.
 - [Quest identificaties](/concepts/quest-id) <br/>
   In dit onderdeel wordt met behulp van een aantal voorbeelden toegelicht hoe een Knowmax Quest identificatie is opgebouwd
 - [Quest transformaties](/concepts/quest-trans) <br/>
@@ -16,3 +18,5 @@
   Metadata definities voor het beschrijven van metadata.
 - [Coverafbeeldingen](/concepts/cover-images) <br/>
   Coverafbeeldingen toevoegen aan Quest documenten.
+- [Knowmax Quest Statistics](/concepts/statistics) <br/>
+  Optionele Knowmax Quest Statistics module voor het bijhouden van statistieken over de gebruikte Quest documenten.
