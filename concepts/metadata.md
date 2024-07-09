@@ -1,9 +1,9 @@
 ---
-title: Metadata definities
+title: Metadata
 permalink: /concepts/metadata
 ---
 
-Knowmax Quest kan voor documenten, documentversies, documentnodes en collecties metadata vastleggen. Voor ieder soort metadata is een metadatadefinitie beschikbaar die een beschrijving geeft van het soort metadata. Iedere metadatadefinitie hoort bij een familie van metadatadefinities.
+Knowmax Quest kan voor documenten, documentversies, documentnodes en collecties metadata vastleggen. Voor iedere soort metadata is een metadatadefinitie beschikbaar die een beschrijving geeft van het soort metadata. Iedere metadatadefinitie hoort bij een familie van metadatadefinities.
 
 Bij Knowmax Quest generatie 4 worden de metadatadefinities direct gebruikt voor de zoekindex. Vanaf Knowmax Quest generatie 5 zijn er aparte indexdefinities beschikbaar. Deze indexdefinities kunnen verwijzingen naar meerdere metadatadefinities bevatten.
 
@@ -16,6 +16,9 @@ Er bestaat ook standaard metadata die Knowmax Quest automatisch voor alle docume
 
 # Identificatie
 De identificatie van metadatadefinities is opgebouwd uit een label en het label van de familie waar de metadatadefinitie onderdeel van is. Binnen een familie moeten de labels van metadatadefinities uniek zijn. 
+
+# Bewerken van metadata
+Metadata die door middel van de [importer](/concepts/importers) is toegevoegd wordt *altijd* aan de documentversie gekoppeld. Deze metadata is met de Knowmax Quest Beheeromgeving niet te bewerken (ReadOnly). De enige mogelijkheid om deze metadata te wijzigen is door het document opnieuw te importeren (publiceren). Metadata die *na* de import aan een document, documentversie of documentversie-node is toegevoegd is wel bewerkbaar.
 
 # Meerdere waarden voor metadatadefinitie
 Er kunnen meerdere waarden voor metadata volgens een bepaalde metadatadefinitie voorkomen voor een document, documentversie of documentnode. Als voor een metadatadefinitie meerdere waarden zijn toegestaan, moeten scheidingstekens (fieldMultiValueSeparators) om meerdere waarden te herkennen gedefinieerd zijn voor die metadatadefinitie om met de API endpoint voor metawaarde mutaties te werken. 
