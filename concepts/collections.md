@@ -10,3 +10,5 @@ Onderdelen binnen een collectie kunnen in een hiërarchie geplaatst worden. Iede
 
 # Verwijzing naar een document of documentversie
 Als een collectie node naar een document of documentversie verwijst, wordt de [Quest identificatie](/quest-id) van het document opgenomen. Een eventuele documentversie wordt in een apart veld aangegeven. Als geen documentversie wordt opgegeven, wordt de huidige actieve versie van het document gebruikt.
+
+Als bij een collectie node met een verwijzing naar een document geen titel wordt opgegeven, wordt automatisch de titel van het document of de documentversie gebruikt. De titel van collectie nodes zonder verwijzing naar een document is altijd verplicht.
