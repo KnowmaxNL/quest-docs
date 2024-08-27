@@ -13,7 +13,7 @@ documentid/documentlocatieid[versie]
 Hierbij zijn de onderdelen "documentlocatieid" en "versie" optioneel. De documentid is het hele pad dat gevolgd wordt tot aan de root van het document.
 
 # Huidige versie
-Als geen versie is opgegeven, geldt de identificatie als een indentificatie naar de huidige versie van het document. Dat is de valide, online versie met het hoogste versienummer of de valide, online versie met expliciet de eigenschap **current** met waarde **true**. Indien meerdere documenten **current** markering hebben, zal het document met deze markering en het hoogste versienummer gebruikt worden.
+Als geen versie is opgegeven, geldt de identificatie als een indentificatie naar de huidige [versie van het document](/concepts/document-structure). Dat is de valide, online versie met het hoogste versienummer of de valide, online versie met expliciet de eigenschap **current** met waarde **true**. Indien meerdere documenten **current** markering hebben, zal het document met deze markering en het hoogste versienummer gebruikt worden.
 
 # Syntax en restricties
 * Alleen cijfers, letters en de volgende tekens zijn toegestaan: . - _ /
