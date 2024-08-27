@@ -3,7 +3,7 @@ title: Quest identificatie
 permalink: /concepts/quest-id
 ---
 
-Alle documenten in Knowmax Quest hebben een unieke identificatie. De identificatie is geschikt om als path-onderdeel in een URL gebruikt te worden. 
+Alle [documenten](/concepts/document-structure) in Knowmax Quest hebben een unieke identificatie. De identificatie is geschikt om als path-onderdeel in een URL gebruikt te worden. 
 
 # Opbouw Quest identificatie
 Ieder onderdeel binnen Knowmax Quest heeft de volgende opbouw:
