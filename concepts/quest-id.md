@@ -63,3 +63,12 @@ docs/richtlijn/richtlijn1/a~documentalternative.pdf
 ```
 
 In bovenstaande voorbeeld wordt het document alternatief met het label **documentalternative.pdf** dat hoort bij het document **docs/richtlijn/richtlijn1** aangeduid.
+
+# Expliciete documentadressering
+Bij het adresseren van een document(onderdeel) met een Quest identificatie zal altijd (een onderdeel van) een bepaalde versie worden opgevraagd. Om expliciet een document en niet een bepaalde versie te adresseren wordt het "!"-teken gebruikt.
+
+```
+doc/abc!
+```
+
+In bovenstaand voorbeeld wordt het document **doc/abc** opgevraagd en niet een bepaalde versie van dit document.
