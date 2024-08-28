@@ -37,9 +37,11 @@ Met de parameter **transform** kan de uitvoer van de data getransformeerd worden
 De XML naar JSON transformatie werkt als een transformatie actie en wordt aangegeven door de parameter **transform** de waarde **{xmltojson}** te geven. Volgens een vastgestelde conventie wordt de XML omgezet naar JSON. De exacte uitvoer is altijd afhangend van de XML structuur.
 
 ### XSLT
-Voor een XSLT transformatie moet in Knowmax Quest een transformatie aangemaakt worden. De transformatie beschrijft de eigenschappen van de uit te voeren XSLT transformatie en bevat de XSLT en eventuele andere resources. Iedere transformatie heeft een label als unieke identificatie. Het label van de transformatie kan in de parameter **transform** opgegeven worden om deze transformatie toe te passen.
+#### Definitie van een transformatie
+Voor een XSLT transformatie moet in Knowmax Quest een transformatie definitie aangemaakt worden. De transformatie definitie beschrijft de eigenschappen van de uit te voeren XSLT transformatie en bevat de XSLT en eventuele andere resources. Iedere transformatie heeft een label als unieke identificatie. Het label van de transformatie kan in de parameter **transform** opgegeven worden om deze transformatie toe te passen.
 
-Het is ook mogelijk transformatietypen te definiëren. Per transformatie kunnen met ***Autoselect JSON*** 1 of meerdere transformatietypen gedefinieerd worden. In de definitie wordt met regels vastgelegd voor welke type document een transformatie geschikt is. Door de parameter **transform** het transformatietype op te geven, wordt automatisch de juiste transformatie geselecteerd. Een transformatietype moet altijd tussen blokhaken **[transformatietype]** geplaatst worden.
+#### Automatische selectie van een transformatie
+Het is ook mogelijk transformatietypen te definiëren. Per transformatie definitie kunnen met ***Autoselect JSON*** 1 of meerdere transformatietypen gedefinieerd worden. Met regels vastgelegd voor welk type document een transformatie geschikt is. Door de parameter **transform** het transformatietype op te geven, wordt automatisch de juiste transformatie definitie geselecteerd. Een transformatietype moet altijd tussen blokhaken **[transformatietype]** geplaatst worden.
 
 ***Autoselect JSON***
 ```json
@@ -53,4 +55,19 @@ Het is ook mogelijk transformatietypen te definiëren. Per transformatie kunnen 
 
 Deze autoselect JSON beschrijft het transformtype ***fancy***. Deze transformatie zal gebruikt worden als tijdens het importeren van de documentversie de **importer** met identificatie ***BasisWettenBestandToestand*** gebruikt is.
 
-Naast **ImportId** is het ook mogelijk om te selecteren op **QuestId**, **QuestVersion** en het voorkomen of hebben van een betaalde **metadata** waarde.
+Naast **ImporterId** is het ook mogelijk om te selecteren op **QuestId**, **QuestVersion** en het voorkomen of hebben van een betaalde **metadata** waarde via **Meta**.
+
+Onderstaande autoselect JSON beschrijft het transformatie type ***platform***. Deze transformatie zal gebruikt worden de import ***QuestIni*** is gebruikt en als er geen metadata waarde is met label ***DublinCore.type*** en waarde ***ABC***.
+```json
+{
+  "platform": [{
+      "ImporterId": "QuestIni",
+       "Meta": [{
+        "Label": "DublinCore.type",
+        "Value": "ABC",
+        "Negate": true
+      }]
+    }
+  ]
+}
+```
