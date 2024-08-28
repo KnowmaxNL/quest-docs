@@ -1,7 +1,6 @@
 ---
 title: Opbouw van een document
 permalink: /topics/document-structure
-category: Achtergrond
 ---
 
 # Document

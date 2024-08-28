@@ -1,7 +1,6 @@
 ---
 title: Quest transformaties
 permalink: /concepts/quest-trans
-category: Basis
 ---
 
 > Dit onderdeel gaat over Knowmax Quest 4 en is nog niet bijgewerkt voor Knowmax Quest versie 5.
