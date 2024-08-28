@@ -1,6 +1,7 @@
 ---
 title: Collecties
 permalink: /concepts/collections
+category: Basis
 ---
 
 Een collectie beschrijft een verzameling van [documenten](/concepts/document-structure) binnen Knowmax Quest. Collecties kunnen worden gebruikt om documenten te groeperen en te ordenen. Een collectie kan bijvoorbeeld een verzameling van documenten zijn die een bepaald onderwerp behandelen of een verzameling van documenten die door een bepaalde auteur zijn geschreven. Zie een collectie als een handmatig aangemaakte verzameling van documenten. 
@@ -28,11 +29,11 @@ POST /api/collection/all
 Gebruik als body een [Knowmax List Request](/topics/knowmax-list-request) om de gewenste collecties op te vragen.
 
 Beschikbare velden voor sortering en filtering:
-| Veldnaam | Omschrijving | Type | Contains ondersteuning |
+| Veldnaam | Omschrijving | Type | Contains |
 | --- | --- | --- | --- |
 | name | Naam | string | ja |
 | label | Label, uniek per collectie | string | ja |
-| associatedQuestId | [Quest id](/concepts/quest-id) van optioneel document dat associatie heeft met collectie  | |string | ja |
+| associatedQuestId | [Quest id](/concepts/quest-id) van optioneel document dat associatie heeft met collectie  | string | ja |
 | id | Interne identificatie van collectie | number | - |
 | createdBy | Naam van aanmaker collectie | string | - |
 | created | Tijdstip van aanmaken collectie | datetime | - |

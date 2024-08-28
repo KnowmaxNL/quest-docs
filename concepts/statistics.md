@@ -1,6 +1,7 @@
 ---
 title: Knowmax Quest Statistics
 permalink: /concepts/statistics
+category: Basis
 ---
 
 De module Knowmax Quest Statistics houdt statistieken bij over het opvragen van data door API gebruikers. 

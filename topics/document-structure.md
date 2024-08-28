@@ -1,6 +1,7 @@
 ---
 title: Opbouw van een document
-permalink: /concepts/document-structure
+permalink: /topics/document-structure
+category: Achtergrond
 ---
 
 # Document

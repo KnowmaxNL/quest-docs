@@ -1,6 +1,7 @@
 ---
 title: Metadata
 permalink: /concepts/metadata
+category: Basis
 ---
 
 Knowmax Quest kan voor documenten, documentversies, documentnodes en collecties metadata vastleggen. Voor iedere soort metadata is een metadatadefinitie beschikbaar die een beschrijving geeft van het soort metadata. Iedere metadatadefinitie hoort bij een familie van metadatadefinities.
