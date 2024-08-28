@@ -25,7 +25,7 @@ Als geen versie is opgegeven, geldt de identificatie als een indentificatie naar
 * Versie kan door middel van een geheel positief getal aangeduid worden, als datum of met de termen **first**, **last** en **current**. Voor een datum dient de notatiewijze jjjj-mm-dd gebruikt te worden
 
 # Voorbeelden
-Stel dat in een Knowmax Quest systeem alle documenten om praktische redenen ondergebracht zijn in kleurgroepen. De publicaties in zijn geheel hebben de prefix "pub" gevolgd door een uniek nummer. De documenten zijn opgebouwd uit paragrafen en bevatten vele versies. Mogelijke questidentificaties zijn in dit systeem:
+Stel dat in Knowmax Quest alle documenten om praktische redenen ondergebracht zijn in kleurgroepen. De publicaties in zijn geheel hebben de prefix "pub" gevolgd door een uniek nummer. De documenten zijn opgebouwd uit paragrafen en bevatten vele versies. Mogelijke questidentificaties zijn in dit systeem:
 
 ```
 1.       rood/pub23/6/6.1/6.1.3[4]
@@ -45,6 +45,9 @@ Stel dat in een Knowmax Quest systeem alle documenten om praktische redenen onde
 ```
 6.       oranje/pub234[2013-2-4]
 ```
+```
+7.       oranje/pub234[4]/hfd1/afbeelding1.png
+```
 
 Bovenstaande voorbeelden zullen de volgende onderdelen uit Knowmax Quest opvragen:
 
@@ -54,6 +57,7 @@ Bovenstaande voorbeelden zullen de volgende onderdelen uit Knowmax Quest opvrage
 4. de huidige actieve versie van pub15 uit kleurgroep paars (merk op dat 6. dit niet de laatse versie [last] hoeft te zijn);
 5. de eerste versie van pub17 (merk op dat dit niet versie [1] hoeft te zijn);
 6. de versie van pub234 uit kleurgroep oranje zoals deze 4 februari 2013 geldig was.
+7. de hfd1/afbeelding1.png uit versie van document oranje/pub234..
 
 # Document alternatieven
 Knowmax Quest biedt de mogelijkheid alternatieve onderdelen voor document(locaties) op te nemen. Zo kan aan een bepaalde publicatie bijvoorbeeld een PDF versie van het hele document zijn toegevoegd. Document alternatieven worden geïdentificeerd met een uniek label. Het label van een documentalternatief volgt na de identificatie van het document of het documentonderdeel waar het document alternatief onderdeel bij hoort en wordt voorafgegaan door **a~**. Voorbeeld:
