@@ -17,7 +17,7 @@ Als bij een collectie node met een verwijzing naar een document geen titel wordt
 Collecties kunnen metadata bevatten met extra eigenschappen van de gehele collectie.
 
 # API
-De endpoints om met collecties te werken bevinden zich in de namespaces die beginnen met /api/collection en /api/collectionnode.
+De endpoints om met collecties te werken bevinden zich in de namespaces die beginnen met **/api/collection** en **/api/collectionnode**.
 
 ## Beschikbare collecties opvragen
 ***Endpoint***
@@ -28,17 +28,17 @@ POST /api/collection/all
 Gebruik als body een [Knowmax List Request](/topics/knowmax-list-request) om de gewenste collecties op te vragen.
 
 Beschikbare velden voor sortering en filtering:
-Veldnaam | Omschrijving | Type | Contains ondersteuning
---- | --- | --- | ---
-name | Naam | string | ja
-label | Label, uniek per collectie | string | ja
-associatedQuestId | [Quest id](/concepts/quest-id) van optioneel document dat associatie heeft met collectie  | string | ja
-id | Interne identificatie van collectie | number | -
-createdBy | Naam van aanmaker collectie | string | -
-created | Tijdstip van aanmaken collectie | datetime | -
-modifiedBy | Naam van wijziger collectie | string | -
-modified | Tijdstip van laatste wijziging collectie | datetime | -
-metadata.[FieldName] | Metadata veld. [FieldName] beschrijf metadata en heeft formaat **label van famile**.**label van metadata** | string | -
+| Veldnaam | Omschrijving | Type | Contains ondersteuning |
+| --- | --- | --- | --- |
+| name | Naam | string | ja |
+| label | Label, uniek per collectie | string | ja |
+| associatedQuestId | [Quest id](/concepts/quest-id) van optioneel document dat associatie heeft met collectie  | |string | ja |
+| id | Interne identificatie van collectie | number | - |
+| createdBy | Naam van aanmaker collectie | string | - |
+| created | Tijdstip van aanmaken collectie | datetime | - |
+| modifiedBy | Naam van wijziger collectie | string | - |
+| modified | Tijdstip van laatste wijziging collectie | datetime | - |
+| metadata.[FieldName] | Metadata veld. [FieldName] beschrijf metadata en heeft formaat **label van famile**.**label van metadata** | string | - |
 
 ## Hiërarchie van nodes in collectie opvragen
 
