@@ -150,7 +150,7 @@ sidebar:
     logo:
         # LOGO URL
         # Image URL: Can be local e.g. '/img/logo.png' or remote 'https://remotesite.com/img/logo.png'
-        url: https://knowmax.nl/wp-content/uploads/2015/11/knowmaxlogo.png
+        url: /assets/kmxlogo.svg
 
         # LOGO MAX HEIGHT
         # Logo image max height, applies only if url is set

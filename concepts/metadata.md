@@ -20,6 +20,16 @@ De identificatie van metadatadefinities is opgebouwd uit een label en het label 
 # Bewerken van metadata
 Metadata die door middel van een [importer](/concepts/importers) is toegevoegd wordt *altijd* aan een documentversie gekoppeld. Deze metadata is achteraf niet te bewerken (ReadOnly). De enige mogelijkheid om deze metadata te wijzigen is door het document opnieuw te importeren. Metadata die *na* de import aan een document, documentversie of documentnode is toegevoegd is wel bewerkbaar.
 
+*Let op!*
+Een gebruiker kan een versie toegevoegen, tussenvoegen of een versie overschrijven. Bij deze actie kan door de gebruiker toegevoegde metadata worden meegenomen. Dit geldt zowel van  metadata op documentversieniveau als op documentnodeniveau. Het meenemen/kopiëren van eerder toegevoegde metadata gebeurt op onderstaande manier:
+
+Methode | Metadata meenemen van versie
+---|---
+Nieuwe versie toevoegen | Metadata van *vorige versie* wordt meegenomen 
+Nieuwe versie tussenvoegen | Metadata van *de versie vóór de tussengevoegde versie* wordt meegenomen 
+Laatste versie overschrijven | Metadata van *de te overschrijven versie* wordt meegenomen
+Tussenliggende versie overschrijven | Metadata van *de te overschrijven versie* wordt meegenomen
+
 # Meerdere waarden voor metadatadefinitie
 Er kunnen meerdere waarden voor metadata volgens een bepaalde metadatadefinitie voorkomen voor een document, documentversie of documentnode. Als voor een metadatadefinitie meerdere waarden zijn toegestaan, moeten scheidingstekens (fieldMultiValueSeparators) om meerdere waarden te herkennen gedefinieerd zijn voor die metadatadefinitie om met de API endpoint voor metawaarde mutaties te werken. 
 
