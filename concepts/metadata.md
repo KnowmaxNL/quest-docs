@@ -26,7 +26,7 @@ Een gebruiker kan een versie toegevoegen, tussenvoegen of een versie overschrijv
 Methode | Metadata meenemen van versie
 ---|---
 Nieuwe versie toevoegen | Metadata van *vorige versie* wordt meegenomen 
-Nieuwe versie tussenvoegen | Metadata van *de versie vóór de tussengevoegde versie* wordt meegenomen 
+Nieuwe versie tussenvoegen | Metadata van *de versie vóór de te tussenvoegen versie* wordt meegenomen 
 Laatste versie overschrijven | Metadata van *de te overschrijven versie* wordt meegenomen
 Tussenliggende versie overschrijven | Metadata van *de te overschrijven versie* wordt meegenomen
 
