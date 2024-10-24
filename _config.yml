@@ -150,7 +150,7 @@ sidebar:
     logo:
         # LOGO URL
         # Image URL: Can be local e.g. '/img/logo.png' or remote 'https://remotesite.com/img/logo.png'
-        url: /assets/kmxlogo.svg
+        url: /assets/kmx-logo.svg
 
         # LOGO MAX HEIGHT
         # Logo image max height, applies only if url is set
