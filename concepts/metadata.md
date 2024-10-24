@@ -27,11 +27,11 @@ Importeermethode | Metadata kopieerstrategie
 ---|---
 New Version | Metadata van *vorige versie* wordt gekopieerd 
 OverwriteLastVersion | Metadata van de *laatste versie* wordt gekopieerd
-OverWriteVersion | Metadata van *de te overschrijven versie* wordt meegenomen
+OverWriteVersion | Metadata van *de te overschrijven versie* wordt gekopieerd
 ResetVersion | Er wordt *geen metadata gekopieerd*
 Auto | Heeft de Autofunctie bepaald dat een versie wordt overschreven, dan geldt dezelfde kopieerstrategie als voor *OverwriteVersion*. Heeft de Autofunctie bepaald dat een versie wordt toegevoagd of tussengevoegd dan geldt de *New Version* kopieerstrategie.
 
-Het is ook mogelijk om de metadata kopieerfunctie uit te zetten. Er zal dan geen metadata worden gekopieerd.
+Het is ook mogelijk om de metadata kopieerfunctie uit te zetten. Er zal dan geen metadata worden gekopieerd ongeacht welke importeermethode wordt gebruikt.
 
 # Meerdere waarden voor metadatadefinitie
 Er kunnen meerdere waarden voor metadata volgens een bepaalde metadatadefinitie voorkomen voor een document, documentversie of documentnode. Als voor een metadatadefinitie meerdere waarden zijn toegestaan, moeten scheidingstekens (fieldMultiValueSeparators) om meerdere waarden te herkennen gedefinieerd zijn voor die metadatadefinitie om met de API endpoint voor metawaarde mutaties te werken. 
