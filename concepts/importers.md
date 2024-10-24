@@ -14,5 +14,5 @@ Importeermethode | Actie
 NewVersion | de documentversie wordt achteraan toegevoegd
 OverwriteLastVersion | de laatste documentversie wordt overschreven
 OverwriteVersion | de documentversie met het overeenkomstige opgegeven nummer wordt overschreven
-ResetVersion | alle documentversies worden vervangen door deze documentversie en deze krijgt versie 1
+ResetVersion | alle documentversies worden vervangen door deze documentversie en deze versie krijgt versienummer 1
 Auto | Knowmax Quest bepaalt zelf aan de hand van de opgegeven versiedatum of een documentversie moet worden toegevoegd, tussengevoegd of overschreven
