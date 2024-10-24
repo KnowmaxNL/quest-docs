@@ -21,7 +21,7 @@ De identificatie van metadatadefinities is opgebouwd uit een label en het label 
 Metadata die door middel van een [importer](/concepts/importers) is toegevoegd wordt *altijd* aan een documentversie gekoppeld. Deze metadata is achteraf niet te bewerken (ReadOnly). De enige mogelijkheid om deze metadata te wijzigen is door het document opnieuw te importeren. Metadata die *na* de import aan een document, documentversie of documentnode is toegevoegd is wel bewerkbaar.
 
 *Let op!*
-Quest kent de mogelijkheid om metadata die na de import aan een documentversie of documentnode is toegevoegd te kopiëren naar de te importeren versie. Afhankelijk van de  importeermethode zoals beschreven in onderdeel [importers](/concepts/importers) wordt een kopieerstrategie gekozen van welke versie de metadata wordt gekopieerd. Dit gebeurt op onderstaande manier:
+Knowmax Quest kent de mogelijkheid om metadata die na de import aan een documentversie of documentnode is toegevoegd te kopiëren naar de te importeren versie. Afhankelijk van de  importeermethode zoals beschreven in onderdeel [importers](/concepts/importers) wordt een kopieerstrategie gekozen van welke versie de metadata wordt gekopieerd. Dit gebeurt op onderstaande manier:
 
 Importeermethode | Metadata kopieerstrategie
 ---|---
@@ -29,7 +29,9 @@ New Version | Metadata van *vorige versie* wordt gekopieerd
 OverwriteLastVersion | Metadata van de *laatste versie* wordt gekopieerd
 OverWriteVersion | Metadata van *de te overschrijven versie* wordt meegenomen
 ResetVersion | Er wordt *geen metadata gekopieerd*
-Auto | Heeft de Autofunctie bepaald dat een versie wordt overschreven, dan geldt dezelfde kopieerstrategie als voor *OverWriteVersion*. Heeft de Autofunctie bepaald dat een versie wordt toegevoagd of tussengevoegd dan geldt de *New Version* kopieerstrategie.
+Auto | Heeft de Autofunctie bepaald dat een versie wordt overschreven, dan geldt dezelfde kopieerstrategie als voor *OverwriteVersion*. Heeft de Autofunctie bepaald dat een versie wordt toegevoagd of tussengevoegd dan geldt de *New Version* kopieerstrategie.
+
+Het is ook mogelijk om de metadata kopieerfunctie uit te zetten. Er zal dan geen metadata worden gekopieerd.
 
 # Meerdere waarden voor metadatadefinitie
 Er kunnen meerdere waarden voor metadata volgens een bepaalde metadatadefinitie voorkomen voor een document, documentversie of documentnode. Als voor een metadatadefinitie meerdere waarden zijn toegestaan, moeten scheidingstekens (fieldMultiValueSeparators) om meerdere waarden te herkennen gedefinieerd zijn voor die metadatadefinitie om met de API endpoint voor metawaarde mutaties te werken. 
