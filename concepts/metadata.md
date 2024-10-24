@@ -23,7 +23,7 @@ Metadata die door middel van een [importer](/concepts/importers) is toegevoegd w
 *Let op!*
 Quest kent de mogelijkheid om metadata die na de import aan een documentversie of documentnode is toegevoegd te kopiëren naar de te importeren versie. Afhankelijk van de  importeermethode zoals beschreven in onderdeel [importers](/concepts/importers) wordt een kopieerstrategie gekozen van welke versie de metadata wordt gekopieerd. Dit gebeurt op onderstaande manier:
 
-Methode | Kopieerstrategie
+Importeermethode | Metadata kopieerstrategie
 ---|---
 New Version | Metadata van *vorige versie* wordt gekopieerd 
 OverwriteLastVersion | Metadata van de *laatste versie* wordt gekopieerd
