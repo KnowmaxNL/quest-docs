@@ -1,6 +1,6 @@
 ---
-title: API reference
+title: API referentie
 permalink: /concepts/api-reference
 ---
 
-Klik hier voor de complete API refentie: [documenten](../api-ref.html).
+Klik hier voor de complete API referentie: [OpenAPI Documentatie](../api-ref.html).
