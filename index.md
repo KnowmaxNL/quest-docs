@@ -22,7 +22,9 @@
   Informatie over het gebruik van indexen in Knowmax Quest.
 - [Knowmax Quest Document Insight](/concepts/document-insight) <br/>
   Informatie over Knowmax Quest Document Insight.
-- [Knowmax Quest Research](/concepts/quest-research) <br/>
+- [Knowmax Quest Research](/concepts/research) <br/>
   Informatie over Knowmax Quest Research.
+- [Knowmax Quest Intelligence Conversations](/concepts/intelligence-conversations) <br/>
+  Informatie over Knowmax Quest Intelligence Conversations.
 - [Knowmax Quest Statistics](/concepts/statistics) <br/>
   Optionele Knowmax Quest Statistics module voor het bijhouden van statistieken over de gebruikte Quest documenten.
