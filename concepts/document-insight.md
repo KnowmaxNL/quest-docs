@@ -13,7 +13,7 @@ Knowmax Quest Document Insight kan gebruikt worden om over ieder onderdeel van h
 Als [Knowmax Quest Research](/concepts/research) ook beschikbaar is, zal in gevallen dat het documentonderdeel te groot is automatisch omgeschakeld worden naar Knowmax Quest Research. Er zal dan een poging gedaan worden om de vraag te beantwoorden op basis van de zoekresultaten van Knowmax Quest Research. Dit zorgt ervoor dat gebruikers altijd een antwoord krijgen, zelfs als het specifieke documentonderdeel te groot is voor Knowmax Quest Document Insight.
 
 # Context
-Na een antwoord van Knowmax Quest Document Insight, kan de gebruiker vervolgvragen stellen om het gekregen antwoord te verfijnen. Op deze manier kan de gebruiker een gesprek aangaan met Knowmax Quest Research. Voor het vastleggen van een gesprek wordt gebruik gemaakt van de [Knowmax Quest Intelligence Conversations](/concepts/intelligence-conversatios) module. Deze module legt het gesprek vast en maakt het mogelijk om later terug te kijken naar de interactie met Knowmax Quest Research.
+Na een antwoord van Knowmax Quest Document Insight, kan de gebruiker vervolgvragen stellen om het gekregen antwoord te verfijnen. Op deze manier kan de gebruiker een gesprek aangaan met Knowmax Quest Research. Voor het vastleggen van een gesprek wordt gebruik gemaakt van de [Knowmax Quest Intelligence Conversations](/concepts/intelligence-conversations) module. Deze module legt het gesprek vast en maakt het mogelijk om later terug te kijken naar de interactie met Knowmax Quest Research.
 
 # Endpoint
 Het endpoint voor Knowmax Quest Document Insight is:
