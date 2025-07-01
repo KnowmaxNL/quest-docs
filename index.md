@@ -18,6 +18,8 @@
   Metadata definities voor het beschrijven van metadata.
 - [Coverafbeeldingen](/concepts/cover-images) <br/>
   Coverafbeeldingen toevoegen aan Quest documenten.
+- [Applicaties](/concepts/applications) <br/>
+  Informatie over applicaties binnen Knowmax Quest.
 - [Indexes](/concepts/indexes) <br/>
   Informatie over het gebruik van indexen in Knowmax Quest.
 - [Intelligentie modellen](/concepts/intelligencemodels) <br/>
