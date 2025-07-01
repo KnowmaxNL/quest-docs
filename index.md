@@ -18,5 +18,11 @@
   Metadata definities voor het beschrijven van metadata.
 - [Coverafbeeldingen](/concepts/cover-images) <br/>
   Coverafbeeldingen toevoegen aan Quest documenten.
+- [Indexes](/concepts/indexes) <br/>
+  Informatie over het gebruik van indexen in Knowmax Quest.
+- [Knowmax Quest Document Insight](/concepts/document-insight) <br/>
+  Informatie over Knowmax Quest Document Insight.
+- [Knowmax Quest Research](/concepts/quest-research) <br/>
+  Informatie over Knowmax Quest Research.
 - [Knowmax Quest Statistics](/concepts/statistics) <br/>
   Optionele Knowmax Quest Statistics module voor het bijhouden van statistieken over de gebruikte Quest documenten.
