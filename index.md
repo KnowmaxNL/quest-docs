@@ -20,6 +20,8 @@
   Coverafbeeldingen toevoegen aan Quest documenten.
 - [Indexes](/concepts/indexes) <br/>
   Informatie over het gebruik van indexen in Knowmax Quest.
+- [Intelligentie modellen](/concepts/intelligencemodels) <br/>
+  Informatie over de verschillende AI modellen die gebruikt kunnen worden in Knowmax Quest.
 - [Knowmax Quest Document Insight](/concepts/document-insight) <br/>
   Informatie over Knowmax Quest Document Insight.
 - [Knowmax Quest Research](/concepts/research) <br/>
