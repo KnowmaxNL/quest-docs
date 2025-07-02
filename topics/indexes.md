@@ -25,6 +25,8 @@ Voor het gebruik van een door Knowmax Quest gebouwde index binnen Microsoft Azur
 
 Meer informatie over Microsoft Azure AI Search: [Microsoft Azure AI Search Documentation](https://learn.microsoft.com/en-us/azure/search/)
 
+Meer informatie over OData filtering in Microsoft Azure AI Search: [OData Filtering in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/search-query-odata-filter)
+
 # CORS
 Bij rechtstreeks gebruik van de Microsoft Azure AI Search API vanuit een browser, is het noodzakelijk om CORS (Cross-Origin Resource Sharing) in te stellen. Dit zorgt ervoor dat de browser verzoeken naar de API toestaat vanuit verschillende domeinen. De CORS-instellingen worden vastgelegd in de index definitie en Knowmax Quest zal deze toepassen op de Microsoft Azure AI Search index.
 

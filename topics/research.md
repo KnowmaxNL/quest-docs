@@ -12,6 +12,9 @@ Het verschil met [Knowmax Quest Document Insight](/topics/document-insight) is d
 # Context
 Na een antwoord van Knowmax Quest Research, kan de gebruiker vervolgvragen stellen om het gekregen antwoord te verfijnen. Op deze manier kan de gebruiker een gesprek aangaan met Knowmax Quest Research. Voor het vastleggen van een gesprek wordt gebruik gemaakt van de [Knowmax Quest Intelligence Conversations](/topics/intelligence-conversations) module. Deze module legt het gesprek vast en maakt het mogelijk om later terug te kijken naar de interactie met Knowmax Quest Research.
 
+# Filtering
+Dankzij het gebruik van [Microsoft Azure AI Search](/topics/indexes), is het mogelijk de voor Knowmax Quest Research te gebruiken zoekresultaten te filteren op basis van metadata die aan de documenten zijn gekoppeld. Daarmee is het mogelijk om gerichter te zoeken en alleen de meest relevante informatie te vinden. 
+
 # Document Intent
 De kwaliteit van het antwoord van Knowmax Quest Research is sterk afhankelijk van de kwaliteit van de uitgevoerde zoekopdrachten. De resultaten van die zoekopdrachten worden ten slotte gebruikt om een aanwoord te genereren. Om de kwaliteit van de resultaten van de zoekopdracht te verbeteren, is het optioneel mogelijk door de gebruiker in de vraag genoemde documenten vast te stellen. Deze zogenaamde **document intent** kan worden gebruikt om de zoekopdracht te beperken tot 1 of meerdere specifieke documenten.
 
