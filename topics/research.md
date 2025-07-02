@@ -1,5 +1,5 @@
 ---
-title: Knowmax Quest Research
+title: 🧠 Knowmax Quest Research
 permalink: /topics/research
 category: Onderwerpen
 order: 17

@@ -172,7 +172,7 @@ sidebar:
         -   url: /topics/api-reference
             title: 📘 API Referentie
             order: 0
-            category: Quick Access
+            category: API
         -   url: https://www.knowmax.com/
             title: Knowmax Website
             order: 500

@@ -1,5 +1,5 @@
 ---
-title: Intelligentie modellen
+title: 🧠 Intelligentie modellen
 permalink: /topics/intelligencemodels
 category: Onderwerpen
 order: 13

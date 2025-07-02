@@ -1,5 +1,5 @@
 ---
-title: Authenticatie en autorisatie
+title: 🔑 Authenticatie en autorisatie
 permalink: /topics/authentication
 category: Onderwerpen
 order: 4

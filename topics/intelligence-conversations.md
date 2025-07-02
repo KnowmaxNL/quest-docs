@@ -1,5 +1,5 @@
 ---
-title: Knowmax Quest Intelligence Conversations
+title: 💬 Knowmax Quest Intelligence Conversations
 permalink: /topics/intelligence-conversations
 category: Onderwerpen
 order: 15

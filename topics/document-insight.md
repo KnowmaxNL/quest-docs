@@ -1,5 +1,5 @@
 ---
-title: Knowmax Quest Document Insight
+title: 🧠 Knowmax Quest Document Insight
 permalink: /topics/document-insight
 category: Onderwerpen
 order: 14

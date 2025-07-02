@@ -1,5 +1,5 @@
 ---
-title: Knowmax Quest Statistics
+title: 📊 Knowmax Quest Statistics
 permalink: /topics/statistics
 category: Onderwerpen
 order: 18

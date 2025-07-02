@@ -1,5 +1,5 @@
 ---
-title: Applications
+title: Applicaties
 permalink: /topics/applications
 category: Onderwerpen
 order: 3
