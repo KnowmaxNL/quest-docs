@@ -1,5 +1,5 @@
 ---
-title: Quest identificatie
+title: 🆔 Quest identificatie
 permalink: /topics/quest-id
 category: Onderwerpen
 order: 23

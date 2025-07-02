@@ -1,5 +1,5 @@
 ---
-title: Metadata
+title: 🏷️ Metadata
 permalink: /topics/metadata
 category: Onderwerpen
 order: 20

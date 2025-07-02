@@ -4,9 +4,6 @@ permalink: /topics/rights-allowdata
 category: Onderwerpen
 order: 2
 ---
-title: AllowData recht 
-permalink: /concepts/rights-allowdata
----
 
 # Afscherming data
 Het [recht](/concepts/rights) **AllowData** is nodig om de inhoud van Quest documenten op te  vragen. De status, metadata en de inhoudsopgave van Quest documenten is ook zonder dit recht op te vragen.

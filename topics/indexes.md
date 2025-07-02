@@ -1,5 +1,5 @@
 ---
-title: Indexes
+title: 🔎 Indexes
 permalink: /topics/indexes
 category: Onderwerpen
 order: 11
