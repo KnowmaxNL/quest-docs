@@ -1,6 +1,8 @@
 ---
 title: Info over documentonderdelen
 permalink: /concepts/info
+category: Concepten
+order: 10
 ---
 
 Voor alle onderdelen van een [document](/topics/document-structure) is beschrijvende informatie beschikbaar. 

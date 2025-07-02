@@ -1,6 +1,8 @@
 ---
 title: Knowmax Quest Intelligence Conversations
 permalink: /concepts/intelligence-conversations
+category: Concepten
+order: 13
 ---
 
 De module Knowmax Quest Intelligence Conversations legt gesprekken vast die gebruikers voeren met Knowmax Quest Intelligence oplossingen zoals [Knowmax Quest Document Insight](/concepts/document-insight) en [Knowmax Quest Research](/concepts/research). Deze module maakt het mogelijk om de interacties met deze oplossingen te volgen, te analyseren en te verbeteren.

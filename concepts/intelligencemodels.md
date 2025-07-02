@@ -1,6 +1,8 @@
 ---
 title: Intelligentie modellen
 permalink: /concepts/intelligencemodels
+category: Concepten
+order: 11
 ---
 
 Er kunnen verschillende Artificiële Intelligentie (AI) modellen op Knowmax Quest aangesloten worden. Het gaat om zogenaamde Large Language Models (LLM). Alle populaire modellen, zoals die van OpenAI, Ollama en Microsoft, kunnen gebruikt worden. Knowmax Quest is voorbereid om ook toekomstige modellen laagdrempelig te ondersteunen. 

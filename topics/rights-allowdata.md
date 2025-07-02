@@ -1,5 +1,10 @@
 ---
 title: AllowData recht 
+permalink: /topics/rights-allowdata
+category: Onderwerpen
+order: 101
+---
+title: AllowData recht 
 permalink: /concepts/rights-allowdata
 ---
 

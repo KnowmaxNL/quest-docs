@@ -1,6 +1,8 @@
 ---
 title: Indexes
 permalink: /concepts/indexes
+category: Concepten
+order: 9
 ---
 
 Een index is een datastructuur die het zoeken naar gegevens in een database of een andere gegevensopslag vergemakkelijkt. Het fungeert als een soort inhoudsopgave, waardoor het systeem snel de locatie van specifieke gegevens kan vinden zonder de hele dataset te doorzoeken. Knowmax Quest gebruikt de index om documenten efficiënt te doorzoeken, te filteren en op te halen.

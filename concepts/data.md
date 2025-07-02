@@ -1,6 +1,8 @@
 ---
 title: Data
 permalink: /concepts/data
+category: Concepten
+order: 6
 ---
 
 De [documentnodes](/topics/document-structure) van documentversies bevatten de inhoudelijke data van een document.

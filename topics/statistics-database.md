@@ -1,5 +1,10 @@
 ---
 title: Knowmax Quest Statistics database
+permalink: /topics/statistics-database
+category: Onderwerpen
+order: 104
+---
+title: Knowmax Quest Statistics database
 permalink: /concepts/statistics-database
 ---
 

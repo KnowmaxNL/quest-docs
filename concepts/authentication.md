@@ -1,6 +1,8 @@
 ---
 title: Authenticatie en autorisatie
 permalink: /concepts/authentication
+category: Concepten
+order: 3
 ---
 
 # Manieren van authenticatie en autorisatie

@@ -1,6 +1,8 @@
 ---
 title: Coverafbeeldingen
 permalink: /concepts/cover-images
+category: Concepten
+order: 5
 ---
 
 > Dit onderdeel gaat over Knowmax Quest 4 en is nog niet bijgewerkt voor Knowmax Quest versie 5.

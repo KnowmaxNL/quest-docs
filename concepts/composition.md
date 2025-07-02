@@ -1,6 +1,8 @@
 ---
 title: Decompositie en compositie
 permalink: /concepts/composition
+category: Concepten
+order: 7
 ---
 
 Afhankelijk van de gebruikte [importer](/concepts/importers) kan Knowmax Quest documentversies bij het importeren opknippen in logische eenheden. Dit proces noemen we decompositie. Een XML bestand dat een tekstdocument beschrijft met hoofdstukken en artikelen, zou bijvoorbeeld tot op artikelniveau kunnen worden opgeknipt. Door dit opknippen is het mogelijk inhoud uit een XML document op ieder gewenst niveau op te vragen. Ieder opgeknipt onderdeel krijgt een eigen identificatie en is als een [document node](/topics/document-structure) beschikbaar binnen de documentversie.

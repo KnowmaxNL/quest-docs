@@ -1,6 +1,8 @@
 ---
 title: Applications
 permalink: /concepts/applications
+category: Concepten
+order: 2
 ---
 
 Binnen Knowmax Quest kunnen er applicaties worden gemaakt. Een applicatie is een logische eenheid waaraan binnen Knowmax Quest resources kunnen worden toegewezen. Meestal corresponderen deze applicaties met een specifiek gebruik van Knowmax Quest binnen een bepaalde applicatie.

@@ -1,6 +1,8 @@
 ---
 title: Knowmax List Request
 permalink: /topics/knowmax-list-request
+category: Onderwerpen
+order: 103
 ---
 
 Voor verschillende endpoints die gebruikt worden om een lijst van data op te vragen, wordt gebruik gemaakt van een Knowmax List Request om de opgevraagde lijst te definiëren. 

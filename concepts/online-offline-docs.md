@@ -1,6 +1,8 @@
 ---
 title: Online en offline documentversies
 permalink: /concepts/online-offline-docs
+category: Concepten
+order: 17
 ---
 
 In Knowmax Quest kunnen [documentversies](/topics/document-structure) de status **online** of **offline** hebben. Alleen valide versies kunnen de status online hebben. Een valide versie is een versie zonder fouten die de werking van de documentversie belemmeren. Knowmax Quest [importers](/concepts/importers) bepalen automatisch of een document valide is of niet. Binnen de beheeromgeving van Knowmax Quest kunnen versies handmatig als online of offline worden ingesteld.

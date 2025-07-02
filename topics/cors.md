@@ -1,6 +1,8 @@
 ---
 title: Cors
 permalink: /topics/cors
+category: Onderwerpen
+order: 102
 ---
 
 Voor het direct aanspreken van de Knowmax Quest API vanuit een webbrowser is het meestal nodig dat de server waarop de API draait CORS (Cross-Origin Resource Sharing) ondersteunt. CORS is een mechanisme waarmee een webbrowser toestemming kan krijgen om resources van een server op een ander domein te gebruiken.

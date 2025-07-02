@@ -1,6 +1,8 @@
 ---
 title: Rechten
 permalink: /concepts/rights
+category: Onderwerpen
+order: 106
 ---
 
 Het bij [authenticatie](/concepts/authentication) verkregen bearer token beschrijft wie de gebruiker is en wat de rechten van de gebruiker zijn. Deze rechten worden uitgedrukt in claims. Claims zijn stukjes informatie die in het bearer token zijn opgenomen. Afhankelijk van de toegekende rechten is het gebruik van bepaalde functionaliteit van de API wel of niet toegestaan.
