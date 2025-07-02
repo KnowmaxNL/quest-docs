@@ -1,7 +1,6 @@
 ---
 title: AllowData recht 
 permalink: /topics/rights-allowdata
-category: Achtergrond
 order: 2
 unlisted: true
 ---
