@@ -1,8 +1,9 @@
 ---
 title: AllowData recht 
 permalink: /topics/rights-allowdata
-category: Onderwerpen
+category: Achtergrond
 order: 2
+unlisted: true
 ---
 
 # Afscherming data
