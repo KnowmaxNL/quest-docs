@@ -2,7 +2,7 @@
 title: AllowData recht 
 permalink: /topics/rights-allowdata
 category: Onderwerpen
-order: 101
+order: 2
 ---
 title: AllowData recht 
 permalink: /concepts/rights-allowdata

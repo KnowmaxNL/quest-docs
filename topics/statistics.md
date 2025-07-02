@@ -1,8 +1,8 @@
 ---
 title: Knowmax Quest Statistics
-permalink: /concepts/statistics
-category: Concepten
-order: 15
+permalink: /topics/statistics
+category: Onderwerpen
+order: 18
 ---
 
 De module Knowmax Quest Statistics houdt statistieken bij over het opvragen van data door API gebruikers. 

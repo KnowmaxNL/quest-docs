@@ -1,8 +1,8 @@
 ---
 title: Authenticatie en autorisatie
-permalink: /concepts/authentication
-category: Concepten
-order: 3
+permalink: /topics/authentication
+category: Onderwerpen
+order: 4
 ---
 
 # Manieren van authenticatie en autorisatie

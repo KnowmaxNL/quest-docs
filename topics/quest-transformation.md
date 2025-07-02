@@ -1,8 +1,8 @@
 ---
 title: Quest transformaties
-permalink: /concepts/quest-trans
-category: Concepten
-order: 19
+permalink: /topics/quest-trans
+category: Onderwerpen
+order: 24
 ---
 
 > Dit onderdeel gaat over Knowmax Quest 4 en is nog niet bijgewerkt voor Knowmax Quest versie 5.

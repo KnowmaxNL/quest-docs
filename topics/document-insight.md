@@ -1,8 +1,8 @@
 ---
 title: Knowmax Quest Document Insight
-permalink: /concepts/document-insight
-category: Concepten
-order: 12
+permalink: /topics/document-insight
+category: Onderwerpen
+order: 14
 ---
 
 Knowmax Quest Document Insight ondersteunt de gebruiker tijdens het lezen van een document door op verschillende manieren inzicht te geven in de tekst van een specifiek documentonderdeel uit Knowmax Quest. De gebruiker kan vragen stellen over de tekst en krijgt via [artificiële intelligentie](/concepts/intelligencemodels) (AI) gegenereerde antwoorden. 

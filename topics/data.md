@@ -1,8 +1,8 @@
 ---
 title: Data
-permalink: /concepts/data
-category: Concepten
-order: 6
+permalink: /topics/data
+category: Onderwerpen
+order: 8
 ---
 
 De [documentnodes](/topics/document-structure) van documentversies bevatten de inhoudelijke data van een document.

@@ -1,8 +1,8 @@
 ---
 title: Info over documentonderdelen
-permalink: /concepts/info
-category: Concepten
-order: 10
+permalink: /topics/info
+category: Onderwerpen
+order: 12
 ---
 
 Voor alle onderdelen van een [document](/topics/document-structure) is beschrijvende informatie beschikbaar. 

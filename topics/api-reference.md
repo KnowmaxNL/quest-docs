@@ -1,7 +1,7 @@
 ---
 title: API referentie
-permalink: /concepts/api-reference
-category: Concepten
+permalink: /topics/api-reference
+category: Onderwerpen
 order: 1
 ---
 

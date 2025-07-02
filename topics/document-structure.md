@@ -2,7 +2,7 @@
 title: Opbouw van een document
 permalink: /topics/document-structure
 category: Onderwerpen
-order: 105
+order: 22
 ---
 
 # Document

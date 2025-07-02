@@ -1,8 +1,8 @@
 ---
 title: Knowmax Quest Research
-permalink: /concepts/research
-category: Concepten
-order: 14
+permalink: /topics/research
+category: Onderwerpen
+order: 17
 ---
 
 Knowmax Quest Research stelt gebruikers in staat om in natuurlijke taal vragen te stellen over alle documenten die zijn opgenomen in een Microsoft Azure AI Search [index](/concepts/indexes) inclusief een gevectoriseerde weergave van de inhoud van de documenten. Antwoorden worden door [artificiële intelligentie](/concepts/intelligencemodels) (AI) gegenereerd. Knowmax Quest Research biedt een geavanceerd alternatief voor zoeken. 

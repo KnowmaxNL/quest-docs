@@ -1,8 +1,8 @@
 ---
 title: Collecties
-permalink: /concepts/collections
-category: Concepten
-order: 4
+permalink: /topics/collections
+category: Onderwerpen
+order: 5
 ---
 
 Een collectie beschrijft een verzameling van [documenten](/topics/document-structure) binnen Knowmax Quest. Collecties kunnen worden gebruikt om documenten te groeperen en te ordenen. Een collectie kan bijvoorbeeld een verzameling van documenten zijn die een bepaald onderwerp behandelen of een verzameling van documenten die door een bepaalde auteur zijn geschreven. Zie een collectie als een handmatig aangemaakte verzameling van documenten. 
