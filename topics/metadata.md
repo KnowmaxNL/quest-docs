@@ -12,7 +12,7 @@ Bij Knowmax Quest generatie 4 worden de metadatadefinities direct gebruikt voor 
 De API van Knowmax Quest heeft verschillende endpoints om met metadata te werken.
 
 # Beschikbare metadata definities
-Er is een overzicht met alle beschikbare metadatadefinities. Tijdens het [importeren](/concepts/importers) van documenten worden metadatadefinities automatisch aangemaakt indien deze voor een bepaald soort metadata nog niet bestaan. 
+Er is een overzicht met alle beschikbare metadatadefinities. Tijdens het [importeren](/topics/importers) van documenten worden metadatadefinities automatisch aangemaakt indien deze voor een bepaald soort metadata nog niet bestaan. 
 
 Er bestaat ook standaard metadata die Knowmax Quest automatisch voor alle documenten beheerd. De metadatadefinities voor deze standaard metadata kunnen niet bewerkt worden. 
 
@@ -20,10 +20,10 @@ Er bestaat ook standaard metadata die Knowmax Quest automatisch voor alle docume
 De identificatie van metadatadefinities is opgebouwd uit een label en het label van de familie waar de metadatadefinitie onderdeel van is. Binnen een familie moeten de labels van metadatadefinities uniek zijn. 
 
 # Bewerken van metadata
-Metadata die door middel van een [importer](/concepts/importers) is toegevoegd wordt *altijd* aan een documentversie (of documentnode, dus een onderdeel van een documentversie) gekoppeld. Deze metadata is achteraf niet te bewerken (read-only). De enige mogelijkheid om deze metadata te wijzigen is door het document opnieuw te importeren. Metadata die *na* de import aan een document, documentversie of documentnode is toegevoegd is wel bewerkbaar.
+Metadata die door middel van een [importer](/topics/importers) is toegevoegd wordt *altijd* aan een documentversie (of documentnode, dus een onderdeel van een documentversie) gekoppeld. Deze metadata is achteraf niet te bewerken (read-only). De enige mogelijkheid om deze metadata te wijzigen is door het document opnieuw te importeren. Metadata die *na* de import aan een document, documentversie of documentnode is toegevoegd is wel bewerkbaar.
 
 *Let op!*
-Knowmax Quest kent de mogelijkheid om metadata die na de import aan een documentversie of documentnode is toegevoegd te kopiëren naar de te importeren versie. Afhankelijk van de  importeermethode zoals beschreven in onderdeel [importers](/concepts/importers) wordt een kopieerstrategie gekozen van welke versie de metadata wordt gekopieerd. Dit gebeurt op onderstaande manier:
+Knowmax Quest kent de mogelijkheid om metadata die na de import aan een documentversie of documentnode is toegevoegd te kopiëren naar de te importeren versie. Afhankelijk van de  importeermethode zoals beschreven in onderdeel [importers](/topics/importers) wordt een kopieerstrategie gekozen van welke versie de metadata wordt gekopieerd. Dit gebeurt op onderstaande manier:
 
 Importeermethode | Metadata kopieerstrategie
 ---|---
@@ -53,7 +53,7 @@ a-b,c | 2 waarden: a-b en c
 Als de scheidingstekens voor de metadatadefintie tijdens het vastleggen van de waarde niet opgegeven zijn, zal de waarde als één waarde worden opgeslagen. Als na het vastleggen van de waarde scheidingstekens worden gedefinieerd, zullen de waarden die al zijn vastgelegd niet alsnog worden gesplitst. Mochten waarden van deze metadatadefinitie gebruikt worden in een zoekindex, dan zal de indexer van het zoeksysteem de waarden alsnog gesplitst (dus als meerdere waarden) opnemen in de zoekindex. De eigenlijke waarde van de metadata wordt niet aangepast.
 
 ## Importers
-Voor metadata die tijdens het importeren van documenten door de [importer](/concepts/importers) worden vastgelegd, wordt geen gebruik gemaakt van de scheidingstekens om waarden te splitsen. Importers hanteren hun eigen regels om voor een bepaalde metadatadefinitie meerdere waarden vast te leggen. 
+Voor metadata die tijdens het importeren van documenten door de [importer](/topics/importers) worden vastgelegd, wordt geen gebruik gemaakt van de scheidingstekens om waarden te splitsen. Importers hanteren hun eigen regels om voor een bepaalde metadatadefinitie meerdere waarden vast te leggen. 
 
 # Automatisch opschonen metadatadefinities
 Periodiek zullen ongebruikte metadatadefinities automatisch verwijderd worden. Een metadatadefinitie geldt als ongebruikt als er geen documenten, documentversies, document nodes of collecties zijn die waarden voor een metadatadefintie hebben.

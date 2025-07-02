@@ -12,8 +12,8 @@ De configuratie van AI modellen wordt gedaan in de Knowmax Quest beheeromgeving.
 
 # Taak type
 Per Intelligentiemodel kan een taak type worden ingesteld. Dit taak type bepaalt de functionaliteit van het AI model. De volgende taak types zijn beschikbaar:
-* **Chat completion**: Wordt gebruikt voor chat toepassingen, waarbij het AI model antwoorden genereert op basis van de input van de gebruiker. Deze worden direct gebruikt door [Knowmax Quest Research](/concepts/research) en [Knowmax Quest Document Insight](/concepts/document-insight).
-* **Embedding**: Dit taak type wordt gebruikt om tekst te converteren naar vectoren, die vervolgens kunnen worden gebruikt voor semantische zoekopdrachten of vergelijkingen. Deze vectoren worden opgeslagen in de Microsoft Azure AI Search [index](/concepts/indexes).
+* **Chat completion**: Wordt gebruikt voor chat toepassingen, waarbij het AI model antwoorden genereert op basis van de input van de gebruiker. Deze worden direct gebruikt door [Knowmax Quest Research](/topics/research) en [Knowmax Quest Document Insight](/topics/document-insight).
+* **Embedding**: Dit taak type wordt gebruikt om tekst te converteren naar vectoren, die vervolgens kunnen worden gebruikt voor semantische zoekopdrachten of vergelijkingen. Deze vectoren worden opgeslagen in de Microsoft Azure AI Search [index](/topics/indexes).
 
 # Intelligentie modellen voor applicatie
 De keuze welk intelligentie model gebruikt wordt voor Knowmax Quest Research of Knowmax Quest Document Insight wordt gemaakt in de applicatie waarin deze functionaliteit wordt aangeboden.

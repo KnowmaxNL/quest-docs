@@ -5,10 +5,10 @@ category: Onderwerpen
 order: 19
 ---
 title: Knowmax Quest Statistics database
-permalink: /concepts/statistics-database
+permalink: /topics/statistics-database
 ---
 
-Beschrijving van tabelstructuur in de database ten behoeve van door Knowmax Quest bijgehouden [statistieken](/concepts/statistics).
+Beschrijving van tabelstructuur in de database ten behoeve van door Knowmax Quest bijgehouden [statistieken](/topics/statistics).
 
 # Document, documentversie en documentnode
 Om de statistieken te kunnen interpreteren is het belangrijk te weten wat een document, documentversie en documentnode is.
@@ -36,8 +36,8 @@ Er worden statistieken bijgehouden per unieke gebruiker. Iedere unieke gebruiker
 | Veld | Omschrijving |
 | --- | --- |
 | Id | Unieke identificatie van identity in database. |
-| CustomId | Unieke identificatie van identity in extern systeem zoals bepaald tijdens [authenticatie](/concepts/authentication). |
-| Name | Naam van identity in extern systeem zoals bepaald tijdens [authenticatie](/concepts/authentication). |
+| CustomId | Unieke identificatie van identity in extern systeem zoals bepaald tijdens [authenticatie](/topics/authentication). |
+| Name | Naam van identity in extern systeem zoals bepaald tijdens [authenticatie](/topics/authentication). |
 | Created | Tijdstip van eerste bevraging door gebruiker. |
 | Modified | Tijdstip van laatste bevraging door gebruiker. |
 

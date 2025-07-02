@@ -34,7 +34,7 @@ Beschikbare velden voor sortering en filtering:
 | --- | --- | --- | --- |
 | name | Naam | string | ja |
 | label | Label, uniek per collectie | string | ja |
-| associatedQuestId | [Quest id](/concepts/quest-id) van optioneel document dat associatie heeft met collectie | string | ja |
+| associatedQuestId | [Quest id](/topics/quest-id) van optioneel document dat associatie heeft met collectie | string | ja |
 | id | Interne identificatie van collectie | number | - |
 | createdBy | Naam van aanmaker collectie | string | - |
 | created | Tijdstip van aanmaken collectie | datetime | - |

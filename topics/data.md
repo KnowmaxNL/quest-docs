@@ -9,7 +9,7 @@ De [documentnodes](/topics/document-structure) van documentversies bevatten de i
 
 Afhankelijk van het soort document, kunnen documentversies ook resources en document alternatieven bevatten. Resources kunnen bijvoorbeeld afbeeldingen zijn waarnaar vanuit het document verwezen wordt. Een document alternatief is een alternatieve versie van een document, bijvoorbeeld een PDF uitvoering van een XML document.
 
-Resources en document alternatives zijn altijd onlosmakelijk en exclusief verbonden met een documentversie. Ze zijn ontstaan tijdens het [importeren](/concepts/importers) van een documentversie.
+Resources en document alternatives zijn altijd onlosmakelijk en exclusief verbonden met een documentversie. Ze zijn ontstaan tijdens het [importeren](/topics/importers) van een documentversie.
 
 # API voor opvragen data
 ***Endpoint***
@@ -19,7 +19,7 @@ GET /api/document/data/{id}
 
 Dit endpoint wordt gebruikt voor het opvragen van alle data behorende bij een document node, resource of document alternative.
 
-De in het path verwerkte parameter **id** is de [identificatie](/concepts/quest-id) van de documentnode, resource of document alternative.
+De in het path verwerkte parameter **id** is de [identificatie](/topics/quest-id) van de documentnode, resource of document alternative.
 
 ## Integratie Knowmax Link Manager
 Als Knowmax Quest geconfigureerd is om samen te werken met de Knowmax Link Manager, kunnen Knowmax Link Manager projectielinks direct in het resultaat verwerkt worden. Dit werkt alleen als de uiteindelijke uitvoer van het resultaat een HTML document is.

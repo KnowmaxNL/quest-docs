@@ -9,7 +9,7 @@ order: 4
 Knowmax Quest kent een aantal verschillende manieren om gebruikers te authenticeren en te autoriseren. We beschrijven hier hoe deze werken en hoe ze gebruikt kunnen worden.
 
 # Bearer token
-Alle verzoeken naar de API van Knowmax Quest moeten een geldig bearer token in de header hebben voor authenticatie en autorisatie van de gebruiker. Het bearer token beschrijft wie de gebruiker is en wat de [rechten](/concepts/rights) zijn van de gebruiker. Knowmax Quest gebruikt een JSON Web Token (JWT), deze wordt bij ieder verzoek aan Knowmax Quest in de ***Authorization*** header meegestuurd door gebruik te maken van het ***Bearer*** schema.
+Alle verzoeken naar de API van Knowmax Quest moeten een geldig bearer token in de header hebben voor authenticatie en autorisatie van de gebruiker. Het bearer token beschrijft wie de gebruiker is en wat de [rechten](/topics/rights) zijn van de gebruiker. Knowmax Quest gebruikt een JSON Web Token (JWT), deze wordt bij ieder verzoek aan Knowmax Quest in de ***Authorization*** header meegestuurd door gebruik te maken van het ***Bearer*** schema.
 
 ```
 Authorization: Bearer <token>
@@ -89,4 +89,4 @@ POST /api/authentication/magma
   }
 }
 ```
-**email** en **organisationName** zijn optioneel. Met de **allowX** waarden kunnen de gewenste [rechten](/concepts/rights) voor de gebruiker worden ingesteld. Alleen rechten die ook beschikbaar zijn voor de gebruikte Knowmax Magma API sleutel kunnen worden ingesteld. Het **AllowAuthenticate** recht kan niet ingesteld worden voor een gedelegeerde gebruiker.
+**email** en **organisationName** zijn optioneel. Met de **allowX** waarden kunnen de gewenste [rechten](/topics/rights) voor de gebruiker worden ingesteld. Alleen rechten die ook beschikbaar zijn voor de gebruikte Knowmax Magma API sleutel kunnen worden ingesteld. Het **AllowAuthenticate** recht kan niet ingesteld worden voor een gedelegeerde gebruiker.
