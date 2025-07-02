@@ -16,6 +16,9 @@ Het bij [authenticatie](/concepts/authentication) verkregen bearer token beschri
 | AllowManagement | Staat toegang tot de beheerinterface toe. |
 | AllowAuthenticate | Staat authenticatie namens andere gebruikers toe. |
 | AllowStatistics | Staat het gebruik van Knowmax Quest Statistics toe. |
+| AllowDocumentInsight | Staat het gebruik van Knowmax Quest Document Insight toe. |
+| AllowResearch | Staat het gebruik van Knowmax Quest Research toe. |
+| AllowIntelligenceConversations | Staat het gebruik van/inzicht in Knowmax Quest Intelligence Conversations toe. |
 
 # Toekennen van rechten
 Rechten voor Knowmax Magma API sleutels worden bij uitgifte ingesteld door Knowmax. 
@@ -37,6 +40,9 @@ POST /api/authentication/rights
     "allowIndex": false,
     "allowModify": false,
     "allowStatistics": false,
-    "allowManagement": false
+    "allowManagement": false,
+    "allowDocumentInsight": false,
+    "allowResearch": false,
+    "allowIntelligenceConversations": false
 }
 ```

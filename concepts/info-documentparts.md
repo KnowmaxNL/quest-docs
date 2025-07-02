@@ -15,8 +15,8 @@ Informatie die mogelijk beschikbaar is voor documentonderdelen:
 | Collecties | Informatie over collecties waarin document(versie) voorkomt. | 
 | Document alternatieven | Informatie over document alternatieven | 
 | Security labels | Labels die toegang geven tot document (Knowmax Licentie Systeem). |
-| Social data | Informatie of document eventueel als favoriet gemarkeerd is voor huidige gebruiker. |
-| Search index | Sleutels voor documentversie of documentnode zoals gebruikt in eventuele zoekindex. |
+| Social data | Informatie of document als favoriet gemarkeerd is voor huidige gebruiker. |
+| Search index | Sleutels voor documentversie of documentnode zoals gebruikt in zoekindex. |
 
 # API voor opvragen info
 ***Endpoint***
@@ -24,6 +24,6 @@ Informatie die mogelijk beschikbaar is voor documentonderdelen:
 GET /api/document/info/{id}
 ```
 
-Dit endpoint wordt gebruikt voor het opvragen van alle data behorende bij een document node, resource of document alternative.
+Dit endpoint wordt gebruikt voor het opvragen van informatie behorende bij een document node, resource of document alternative. Het endpoint heeft veel parameters die gebruikt worden om aan te geven welke onderdelen gevraagd worden. Het is een _best practice_ om alleen de informatie op te vragen die nodig is.
 
-De in het path verwerkte parameter **id** is de [identificatie](/concepts/quest-id) van de documentnode, resource of document alternative.
+De in het path verwerkte parameter **id** is de [identificatie](/concepts/quest-id) van een document, documentversie, documentnode, resource of document alternatief waarvoor informatie opgevraagd wordt.

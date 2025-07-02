@@ -18,7 +18,7 @@ Er bestaat ook standaard metadata die Knowmax Quest automatisch voor alle docume
 De identificatie van metadatadefinities is opgebouwd uit een label en het label van de familie waar de metadatadefinitie onderdeel van is. Binnen een familie moeten de labels van metadatadefinities uniek zijn. 
 
 # Bewerken van metadata
-Metadata die door middel van een [importer](/concepts/importers) is toegevoegd wordt *altijd* aan een documentversie gekoppeld. Deze metadata is achteraf niet te bewerken (ReadOnly). De enige mogelijkheid om deze metadata te wijzigen is door het document opnieuw te importeren. Metadata die *na* de import aan een document, documentversie of documentnode is toegevoegd is wel bewerkbaar.
+Metadata die door middel van een [importer](/concepts/importers) is toegevoegd wordt *altijd* aan een documentversie (of documentnode, dus een onderdeel van een documentversie) gekoppeld. Deze metadata is achteraf niet te bewerken (read-only). De enige mogelijkheid om deze metadata te wijzigen is door het document opnieuw te importeren. Metadata die *na* de import aan een document, documentversie of documentnode is toegevoegd is wel bewerkbaar.
 
 *Let op!*
 Knowmax Quest kent de mogelijkheid om metadata die na de import aan een documentversie of documentnode is toegevoegd te kopiëren naar de te importeren versie. Afhankelijk van de  importeermethode zoals beschreven in onderdeel [importers](/concepts/importers) wordt een kopieerstrategie gekozen van welke versie de metadata wordt gekopieerd. Dit gebeurt op onderstaande manier:
@@ -73,3 +73,6 @@ Textarea | Groot tekstveld.
 QuestId	| Kan een refentie naar een Quest document bevatten. Bij het opvragen van dit veld kan Knowmax Quest automatisch de gegevens van het gerefereerde Quest document meegeven.
 Markdown | Verrijkte tekst volgens markdown standaard toegestaan. Als het veld opgenomen wordt in de zoekindex zal de inhoud worden omgezet naar tekst zonder verrijking.
 Json | Waarde uitgedrukt als JavaScript Object Notation.
+
+# Knowmax Octa
+Optioneel kan Knowmax Quest een koppeling hebben met Knowmax Octa voor het beheren van domeinen van metadata. In Knowmax Quest kunnen metadatadefinities dan gekoppeld worden met een domein in Knowmax Octa. Bij het bewerken van metadata kan dan gebruik gemaakt worden van de waarden die in het domein zijn vastgelegd. Naast de gekozen waarde wordt ook het unieke label van het domein en de domeinwaarde uit Knowmax Octa opgeslagen.
