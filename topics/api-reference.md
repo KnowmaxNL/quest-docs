@@ -1,7 +1,7 @@
 ---
-title: API referentie
+title: 📘 API referentie
 permalink: /topics/api-reference
-category: Onderwerpen
+category: API
 order: 1
 ---
 

@@ -169,7 +169,10 @@ sidebar:
         #     order: 100 # Sets the rank of the page link into the sidebar, higher values give lower rank for the page link
         #     iframe_mode: true
         #     category: Features
-
+        -   url: /topics/api-reference
+            title: 📘 API Referentie
+            order: 0
+            category: Quick Access
         -   url: https://www.knowmax.com/
             title: Knowmax Website
             order: 500
