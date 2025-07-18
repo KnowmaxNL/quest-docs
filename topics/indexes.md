@@ -23,6 +23,12 @@ Knowmax Quest werkt met een concept van een Security Label Provider die aan iede
 # Microsoft Azure AI Search binnen een applicatie
 Voor het gebruik van een door Knowmax Quest gebouwde index binnen Microsoft Azure AI Search, geeft Knowmax een API key uit zodat ontwikkelaars direct de API van Microsoft Azure AI Search kan aanroepen en gebruiken in hun applicaties. Dit stelt ontwikkelaars in staat om de krachtige zoekfunctionaliteit van Microsoft Azure AI Search te integreren in hun eigen toepassingen en workflows.
 
+Knowmax Quest bouwt de indexen in Microsoft Azure AI Search op basis van de indexdefinitie en de ingestelde index veld definitieset. Gegevens over de active index in Microsoft Azure AI Search kunnen worden opgehaald via het endpoint:
+
+```
+GET /api/index/azuresearchindex
+```
+
 Meer informatie over Microsoft Azure AI Search: [Microsoft Azure AI Search Documentation](https://learn.microsoft.com/en-us/azure/search/)
 
 Meer informatie over OData filtering in Microsoft Azure AI Search: [OData Filtering in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/search-query-odata-filter)
