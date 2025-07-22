@@ -28,3 +28,5 @@ Het endpoint voor Knowmax Quest Research is:
 ```
 POST /api/intelligence/research
 ```
+
+Meer informatie over het [antwoord van intelligence model](/topics/ai-answer-format).

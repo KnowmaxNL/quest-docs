@@ -23,3 +23,5 @@ Het endpoint voor Knowmax Quest Document Insight is:
 ```
 POST /api/intelligence/document-insight
 ```
+
+Meer informatie over het [antwoord van intelligence model](/topics/ai-answer-format).
