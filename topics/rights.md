@@ -1,5 +1,5 @@
 ---
-title: Rechten
+title: 🛡️ Rechten
 permalink: /topics/rights
 category: Onderwerpen
 order: 25

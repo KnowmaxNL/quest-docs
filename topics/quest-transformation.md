@@ -1,5 +1,5 @@
 ---
-title: Quest transformaties
+title: 🔄️ Quest transformaties
 permalink: /topics/quest-trans
 category: Onderwerpen
 order: 24

@@ -1,5 +1,5 @@
 ---
-title: Decompositie en compositie
+title: 🧩 Decompositie en compositie
 permalink: /topics/composition
 category: Onderwerpen
 order: 9

@@ -1,5 +1,5 @@
 ---
-title: Collecties
+title: 🗃️ Collecties
 permalink: /topics/collections
 category: Onderwerpen
 order: 5

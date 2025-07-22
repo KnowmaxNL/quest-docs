@@ -1,5 +1,5 @@
 ---
-title: Coverafbeeldingen
+title: 📘 Coverafbeeldingen
 permalink: /topics/cover-images
 category: Onderwerpen
 order: 7

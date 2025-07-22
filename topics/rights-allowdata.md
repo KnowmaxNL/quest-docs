@@ -1,5 +1,5 @@
 ---
-title: AllowData recht 
+title: 🛡️ AllowData recht 
 permalink: /topics/rights-allowdata
 category: Onderwerpen
 order: 2

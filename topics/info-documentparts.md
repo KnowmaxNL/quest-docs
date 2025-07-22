@@ -1,5 +1,5 @@
 ---
-title: Info over documentonderdelen
+title: 📄 Info over documentonderdelen
 permalink: /topics/info
 category: Onderwerpen
 order: 12
