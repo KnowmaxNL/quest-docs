@@ -36,13 +36,13 @@ Wanneer het intelligentiemodel informatie gebruikt uit specifieke bronnen (zoals
 ```json
 "citations": [
   {
-    "bookTitle": "doc1",
+    "bookTitle": "Handleiding",
     "title": "Handleiding hoofdstuk 1",
     "contents": "hier een fragment uit hoofdstuk 1",
     "questId": "handleiding/1"
   },
   {
-    "bookTitle": "doc2",
+    "bookTitle": "Handleiding",
     "title": "Handleiding hoofdstuk 2",
     "contents": "hier een fragment uit hoofdstuk 2",
     "questId": "handleiding/2"
