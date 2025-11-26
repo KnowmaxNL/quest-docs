@@ -31,7 +31,14 @@ De antwoorden die door een [intelligentiemodel](/topics/intelligencemodels) word
 
 ### Verwijzingen zoals `[doc1]`, `[doc2]`
 
-Wanneer het intelligentiemodel informatie gebruikt uit specifieke bronnen (zoals Knowmax Quest documenten), worden er automatisch verwijzingen toegevoegd in de vorm van `[doc1]`, `[doc2]`, enzovoort. Deze verwijzingen corresponderen met een aparte lijst van bronnen die je als `citations` ontvangt in de API-respons, bijvoorbeeld:
+Wanneer het intelligentiemodel informatie gebruikt uit specifieke bronnen (zoals Knowmax Quest documenten), worden er automatisch verwijzingen toegevoegd in de vorm van `[doc1]`, `[doc2]`, enzovoort. 
+
+Deze verwijzingen bestaan uit `[doc` + een nummer`]`, waarbij het nummer verwijst naar de positie in de `citations`-lijst die je in de API-respons ontvangt. De nummering is **1-based**, wat betekent dat:
+- `[doc1]` verwijst naar het **eerste** document in de citations-lijst
+- `[doc2]` verwijst naar het **tweede** document in de citations-lijst
+- enzovoort
+
+Elk Knowmax Quest document in de citations-lijst wordt geïdentificeerd door een `questId`. Voorbeeld van een citations-lijst in de API-respons:
 
 ```json
 "citations": [
