@@ -48,5 +48,7 @@
   In dit onderdeel wordt met behulp van een aantal voorbeelden toegelicht hoe een Knowmax Quest identificatie is opgebouwd
 - [Quest transformaties](/topics/quest-trans) <br/>
   In dit onderdeel worden alle transformatiemogelijkheden beschreven
+- [Knowmax Quest 6 wijzigingen](/topics/quest-6-wijzigingen) <br/>
+  Overzicht van de belangrijkste vernieuwingen in versie 6
 - [Rechten](/topics/rights) <br/>
   Beschrijft beschikbare rechten
