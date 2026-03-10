@@ -58,6 +58,8 @@ Deze verbeteringen gelden voor de gedeelde intelligentielaag waar zowel Knowmax 
 - Custom interceptors voor specifieke inhoud.
 - Verbeterde chunking van grote hoeveelheden tekst.
 - Verbeterde text extractie uit PDF documenten ten behoeve van indexering.
+- Extractie van PDF-inhoud per pagina.
+- Opslag van paginainformatie in de zoekindex, zodat een client vanuit een zoekresultaat direct naar de juiste pagina in een PDF-document kan verwijzen.
 
 ## Beheeromgeving
 - Verbeterde navigatie in de beheeromgeving.
