@@ -40,6 +40,7 @@ Dit onderwerp beschrijft de belangrijkste wijzigingen in Knowmax Quest 6 ten opz
 ## Knowmax Intelligence
 Deze verbeteringen gelden voor de gedeelde intelligentielaag waar zowel Knowmax Quest Research als Knowmax Quest Document Insight van profiteren.
 
+- Editor voor bewerken JSON instellingen van een intelligence model.
 - Ondersteuning voor nieuwe OpenAI modellen voor zowel Research als Document Insight.
 - Experimentele ondersteuning voor modellen van Anthropic voor zowel Research als Document Insight.
 
