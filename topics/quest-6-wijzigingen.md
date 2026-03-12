@@ -35,9 +35,9 @@ Dit onderwerp beschrijft de belangrijkste wijzigingen in Knowmax Quest 6 ten opz
 - Datum/tijd tools.
 
 ## Knowmax Quest Document Insight
-- Knowmax Quest Document Insight profiteert direct van de verbeteringen in de gedeelde **Knowmax Intelligence** laag, waaronder nieuwe modelondersteuning en rijkere contextvastlegging in intelligentiegesprekken.
+- Knowmax Quest Document Insight profiteert direct van de verbeteringen in de gedeelde **Knowmax Quest Intelligence** laag, waaronder nieuwe modelondersteuning en rijkere contextvastlegging in intelligentiegesprekken.
 
-## Knowmax Intelligence
+## Knowmax Quest Intelligence
 Deze verbeteringen gelden voor de gedeelde intelligentielaag waar zowel Knowmax Quest Research als Knowmax Quest Document Insight van profiteren.
 
 - Editor voor bewerken JSON instellingen van een intelligence model.
