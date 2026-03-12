@@ -10,10 +10,10 @@ Dit onderwerp beschrijft de belangrijkste wijzigingen in Knowmax Quest 6 ten opz
 # Belangrijkste thema's in versie 6
 
 ## Knowmax Quest Research
-- Compleet nieuwe pipeline voor Knowmax Quest Research.
-- Reasoning effort instelling: **Minimal**, **Low** en **Medium**.
-- **Low** is vergelijkbaar met de basisinstelling in Quest 5.
-- **Medium** ondersteunt agentic research in Quest 6.
+- Compleet vernieuwde opzet Knowmax Quest Research.
+- Nieuw: **Knowmax Quest Agentic Research** met reasoning effort instelling: **Minimal**, **Low** en **Medium**.
+  - **Low** is vergelijkbaar met de basisinstelling in Quest 5.
+  - **Medium** ondersteunt Agentic Research in Quest 6.
 - Verbeterde query intent detection.
 - Query planning met:
   - LLM powered query rewriting.
@@ -26,7 +26,7 @@ Dit onderwerp beschrijft de belangrijkste wijzigingen in Knowmax Quest 6 ten opz
 - Improved LLM answer synthesis.
 - Verbeterde citation in Knowmax Quest Research.
 
-## Extra tools in Knowmax Quest Research
+## Extra tools in Knowmax Quest (Agentic) Research
 - Extra zoekopdrachten op basis van het in de eerste fase vastgestelde antwoord.
 - Lookup van verwijzingen naar documenten.
 - Versie-informatie over een bepaald document.
@@ -55,12 +55,17 @@ Deze verbeteringen gelden voor de gedeelde intelligentielaag waar zowel Knowmax 
 ## Tekstextractie en documentverwerking
 - Ondersteuning voor markdown text extraction met behoud van documentstructuur voor verbeterde LLM verwerking.
 - Text extraction interceptors voor verbeterde tekstuele LLM weergave van content.
-- Verbeterde MathML ondersteuning door herschrijven naar LaTeX en tekst.
+- Verbeterde MathML ondersteuning door herschrijven naar LaTeX en tekst. (in ontwikkeling)
 - Custom interceptors voor specifieke inhoud.
 - Verbeterde chunking van grote hoeveelheden tekst.
 - Verbeterde text extractie uit PDF documenten ten behoeve van indexering.
 - Extractie van PDF-inhoud per pagina.
 - Opslag van paginainformatie in de zoekindex, zodat een client vanuit een zoekresultaat direct naar de juiste pagina in een PDF-document kan verwijzen.
+
+## Zoekindex en vector search
+- Verbeterde vectorisering met chunking context overlap. 10% voor, 80% inhoud, 10% na de chunk.
+- Verbeterde zoekindex met paginainformatie voor uit PDF afkomstige tekst.
+- Snelheidsverbeteringen in het indexeren van documenten.
 
 ## Beheeromgeving
 - Verbeterde navigatie in de beheeromgeving.
