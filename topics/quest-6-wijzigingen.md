@@ -35,6 +35,8 @@ Dit onderwerp beschrijft de belangrijkste wijzigingen in Knowmax Quest 6 ten opz
 - Datum/tijd tools.
 
 ## Knowmax Quest Document Insight
+- LLM Reasoning Effort support
+- Verbeterde tooling
 - Knowmax Quest Document Insight profiteert direct van de verbeteringen in de gedeelde **Knowmax Quest Intelligence** laag, waaronder nieuwe modelondersteuning en rijkere contextvastlegging in intelligentiegesprekken.
 
 ## Knowmax Quest Intelligence
