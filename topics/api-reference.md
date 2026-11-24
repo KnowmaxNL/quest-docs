@@ -5,4 +5,4 @@ order: 1
 unlisted: true
 ---
 
-Klik hier voor de complete API referentie: [OpenAPI Documentatie](../api-ref.html).
+Klik hier voor de complete API referentie: [OpenAPI Documentatie](../api-ref.html)
