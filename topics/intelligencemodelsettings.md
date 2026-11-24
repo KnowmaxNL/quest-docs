@@ -7,7 +7,7 @@ order: 14
 
 Een intelligentiemodel heeft naast de algemene modelconfiguratie een optioneel veld `SettingsJson`. Dit veld bevat instellingen die specifiek zijn voor het gebruik van het model binnen Knowmax Quest. In de beheerclient kunnen beheerders deze instellingen met een formulier bewerken of de ruwe JSON aanpassen.
 
-Dit topic beschrijft de eigenschappen van `IntelligenceModelSettings`. Voor het instellen van provider, endpoint en modelidentificatie, zie de algemene pagina over [intelligentie modellen](/topics/intelligencemodels). De API-sleutel is een afzonderlijk veld van de modelconfiguratie en hoort niet in `SettingsJson`.
+Dit topic beschrijft de eigenschappen van `IntelligenceModelSettings`. Voor de algemene configuratie van een intelligentiemodel, zie de pagina over [intelligentie modellen](/topics/intelligencemodels).
 
 ## Bewerken en opslaan
 
