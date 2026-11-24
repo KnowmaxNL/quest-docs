@@ -26,6 +26,8 @@
   Structuur van documentcomponenten
 - [Intelligentie modellen](/topics/intelligencemodels) <br/>
   Informatie over de verschillende AI modellen die gebruikt kunnen worden in Knowmax Quest
+- [Instellingen intelligentiemodellen](/topics/intelligencemodelsettings) <br/>
+  Verdieping over de JSON-instellingen van intelligentiemodellen
 - [Knowmax List Request](/topics/knowmax-list-request) <br/>
   API verzoeken voor lijsten
 - [Knowmax Quest Document Insight](/topics/document-insight) <br/>

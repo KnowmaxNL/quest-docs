@@ -15,6 +15,11 @@ Per Intelligentiemodel kan een taak type worden ingesteld. Dit taak type bepaalt
 * **Chat completion**: Wordt gebruikt voor chat toepassingen, waarbij het AI model antwoorden genereert op basis van de input van de gebruiker. Deze worden direct gebruikt door [Knowmax Quest Research](/topics/research) en [Knowmax Quest Document Insight](/topics/document-insight).
 * **Embedding**: Dit taak type wordt gebruikt om tekst te converteren naar vectoren, die vervolgens kunnen worden gebruikt voor semantische zoekopdrachten of vergelijkingen. Deze vectoren worden opgeslagen in de Microsoft Azure AI Search [index](/topics/indexes).
 
+# Instellingen per model
+Naast endpoint, modelidentificatie en andere algemene configuratie heeft een intelligentiemodel het veld `SettingsJson`. In de beheeromgeving kunnen de instellingen via een formulier worden aangepast, of rechtstreeks als JSON. De instellingen bepalen onder meer de gesprekslimieten, modelondersteuning, systeemberichten, bijlagen en compressie.
+
+Een volledige beschrijving van alle instellingen, standaarden en de JSON-vorm staat in het verdiepingstopic [Instellingen intelligentiemodellen](/topics/intelligencemodelsettings).
+
 # Intelligentie modellen voor applicatie
 De keuze welk intelligentie model gebruikt wordt voor Knowmax Quest Research of Knowmax Quest Document Insight wordt gemaakt in de applicatie waarin deze functionaliteit wordt aangeboden.
 

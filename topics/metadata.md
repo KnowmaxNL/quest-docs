@@ -7,7 +7,7 @@ order: 20
 
 Knowmax Quest kan voor documenten, documentversies, documentnodes en collecties metadata vastleggen. Voor iedere soort metadata is een metadatadefinitie beschikbaar die een beschrijving geeft van het soort metadata. Iedere metadatadefinitie hoort bij een familie van metadatadefinities.
 
-Bij Knowmax Quest generatie 4 worden de metadatadefinities direct gebruikt voor de zoekindex. Vanaf Knowmax Quest generatie 5 zijn er aparte indexdefinities beschikbaar. Deze indexdefinities kunnen verwijzingen naar meerdere metadatadefinities bevatten.
+Metadatadefinities kunnen als bron worden gebruikt in een [indexvelddefinitie](/topics/indexes): die koppelt een metadatadefinitie aan een veld in Azure AI Search. De koppelingen worden gegroepeerd in een indexvelddefinitieset, die een indexdefinitie kan gebruiken. Metadata wordt dus niet automatisch volledig in iedere zoekindex opgenomen; de indexdefinitie en gekozen velddefinitieset bepalen welke metadata wordt geïndexeerd en hoe waarden worden omgezet.
 
 De API van Knowmax Quest heeft verschillende endpoints om met metadata te werken.
 
